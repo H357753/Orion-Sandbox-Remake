@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://buterpa7sc46h"]
+
+[ext_resource type="PackedScene" uid="uid://dhe0jynm2tk1m" path="res://sence/ui/item_slot_base.tscn" id="1_n0eh2"]
+[ext_resource type="Script" uid="uid://du2vnwgcv0cn3" path="res://scripts/ui/item_held_slot.gd" id="2_xeq0h"]
+
+[node name="ItemHeldSlot" unique_id=1883724532 instance=ExtResource("1_n0eh2")]
+mouse_filter = 2
+script = ExtResource("2_xeq0h")
+
+[node name="ItemBackground" parent="." index="0" unique_id=596274004]
+mouse_filter = 2
+
+[node name="ItemDurability" parent="." index="1" unique_id=1991703846]
+mouse_filter = 2
+
+[node name="ItemIcon" parent="." index="2" unique_id=1070662913]
+mouse_filter = 2
+
+[node name="ItemFrame" parent="." index="3" unique_id=481583714]
+mouse_filter = 2

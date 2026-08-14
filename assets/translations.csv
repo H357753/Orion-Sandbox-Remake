@@ -1,0 +1,1149 @@
+﻿key,en,zh
+BONUSES!,BONUSES!,奖励！
+DRAGON HELMET,DRAGON HELMET,龙头盔
+GAME PROGRESS WILL BE SAVED ON YOUR COMPUTER,GAME PROGRESS WILL BE SAVED ON YOUR COMPUTER,游戏进度将保存在你的计算机上
+HOME ANIMAL,HOME ANIMAL,宠物
+LOCAL SAVE,LOCAL SAVE,本地保存
+LOGIN,LOGIN,登录
+ONLINE SAVE,ONLINE SAVE,在线保存
+ORION GAME DESCRIPTION,"The enhanced version of the great game Orion Sandbox has arrived! You always need to survive on a virgin world by collecting materials, crafting tools and armor, making improvised shelters, successfully completing missions, finding treasures, and so on. The planet looks like a paradise by day, but when night comes, darkness can hide ferocious creatures and terrible secrets ... Shape the world like you want it! Will you be able to survive on this strange planet?",游戏佳作Orion Sandbox的加强版现已上市！在一个原始世界你要生存下来，收集材料、制作工具和盔甲，建造临时房屋，成功完成任务，寻找宝藏等。白天，星球犹如天堂一般，但一到晚上，在黑暗之中可能有恶魔和可怕秘密隐藏……任由你改造世界！你能在这个陌生的星球生存下来吗？
+PIRATE CLOTHES SET,PIRATE CLOTHES SET,海盗套装
+SELECT,SELECT,选择
+START,START,开始
+__comment,tutorial,教程
+abil_can_breath_underwater,Allows breathing under water,可水下呼吸
+abil_crit,critical hit chance,暴击机率
+abil_damage,damage,攻击伤害
+abil_defense,defense,防御
+abil_flamy,chance to set on fire,火攻机率
+abil_friendly_for_gnomes,King of Universe,宇宙之王
+abil_friendly_light,Radius Light,光环
+abil_health,health,生命
+abil_holy_explosion,Holy Blast,神圣之暴击
+abil_luminary,Magic Radiance,魔法环
+abil_protection_from_explosion,Explosion protection,防爆
+abil_protection_from_fall,Falling protection,防坠
+abil_protection_from_magma,Fire protection,防火
+achiev_alchemist,Alchemist,医疗师
+achiev_alchemist_desc,Make {0} potions,制出{0}支药剂
+achiev_auror,Beast Slayer,屠兽圣手
+achiev_auror_desc,Kill {0} bosses,杀死{0}个首领级怪物（boss）
+achiev_book_traveler,Master of Orion,Orion游戏之王
+achiev_book_traveler_desc,Complete all tasks in The Book of Travels,完成旅行之书中所有任务
+achiev_digger,Digger,挖掘王
+achiev_digger_desc,Mine {0} blocks,开采{0}个砖块
+achiev_doer,Bonfires,寻篝火妙手
+achiev_doer_desc,Find all Bonfires,找到所有篝火
+achiev_dwarf_soul,Moneybags,寻宝妙手
+achiev_dwarf_soul_desc,Find and open all treasures,找到和打开所有宝藏
+achiev_gardener,Gardener,园林师
+achiev_gardener_desc,Grow {0} flower,种植{0}朵花
+achiev_hero,Hero,英雄
+achiev_hero_desc,Kill {0} monsters,杀死{0}个怪物
+achiev_levelup,You’ve reached level {0}!,你已经达到了{0}级！
+achiev_master_fire,Smelter,冶炼师
+achiev_master_fire_desc,Smelt {0} ores,冶炼{0}块矿石
+achiev_smith,Blacksmith,铁匠
+achiev_smith_desc,Craft {0} iron items,打造了{0}个铁器物品
+achiev_traveler,Underground Man,地下使者
+achiev_traveler_desc,Descent down to planet core,下到星球的核心
+block_alchemical_table,Alchemist Table,医疗台
+block_altar,Altar,祭坛
+block_anvil,Anvil,铁砧
+block_aquarium,Aquarium,鱼缸
+block_arms_rack,Arms Rack,武器架
+block_arrow_trap,Arrow Trap,暗箭陷阱
+block_banner_black,Black Banner,黑条幅
+block_banner_blue,Blue Banner,蓝条幅
+block_banner_green,Green Banner,绿条幅
+block_banner_orange,Orange Banner,橙玻璃
+block_banner_purple,Purple Banner,紫条幅
+block_banner_red,Red Banner,红条幅
+block_banner_white,White Banner,白条幅
+block_bed,Bed,床
+block_big_bouquet_random,Large Bouquet,大扎鲜花
+block_big_candlestick,Gold Candlestick,黄金烛台
+block_big_christmas_tree,Slot Machine,老虎机
+block_big_picture,Large Picture,大图片
+block_blue_coral,Blue Coral,蓝煤
+block_blue_mushroom,Blue Mushroom,蓝蘑菇
+block_bluetail_home,Globunny House,乖怪兔窝
+block_book_memories,The Book of Memories,记忆之书
+block_book_memories_part2,The Book of Memories Part 2,记忆之书第二部分
+block_book_shadows,Ancient Computer,远古计算机
+block_bookcase,Bookcase,书架
+block_bookcase_gold,Gold Bookcase,金书架
+block_bookcase_iron,Iron Bookcase,铁书架
+block_bouquet_roses,Bunch of Roses,一扎玫瑰
+block_branch_tree_small,Branch Tree,Branch Tree
+block_brick,Brick,砖
+block_brick_plate,Brick Plate,砖板
+block_bronze_plate,Bronze Plate,铜板
+block_bronze_storage,Bronze Block,铜块
+block_burner,Burner,燃烧器
+block_candelabrum,Candlestick,烛台
+block_chair,Chair,椅
+block_chandelier,Chandelier,吊灯
+block_chest,Chest,箱
+block_chest_gold,Gold Chest,黄金箱
+block_chicken_house,Chicken House,鸡舍
+block_christmas_tree,Scarecrow,稻草人
+block_clay,Clay,粘土
+block_cobblestone,Cobblestone,石材
+block_diamond_storage,Diamond Block,钻石块
+block_dirt,Dirt,土
+block_energy_beam,Energy Beam,能量束
+block_fire_iron_storage,Solidium Block,超锢块
+block_fire_trap,Fire Trap,火焰陷阱
+block_fireball_trap,Fireball Trap,火球陷阱
+block_fireflower,Firebloom,火焰花
+block_fleece,Wool,羊毛
+block_furnace,Furnace,熔炉
+block_gift_chest_new_year,Christmas Gift Chest,圣诞礼物箱
+block_glass,Glass,玻璃
+block_glass_blue,Red Glass,红玻璃
+block_glass_red,Green Glass,绿玻璃
+block_gnome_door,Dwarf Door,矮人门
+block_gold_door,Gold Door,金门
+block_gold_plate,Gold Plate,金板
+block_gold_storage,Gold Block,金块
+block_grass,Grass,草
+block_great_bed,Gold Bed,金床
+block_great_chair,Gold Chair,金椅
+block_great_sofa,Gold Sofa,金沙发
+block_great_table,Gold Table,金桌
+block_green_coral,Green Coral,绿煤
+block_guest_portal,Guest Portal,Guest Portal
+block_hero_statue,Hero Statue,英雄像
+block_input_portal,Entrance Portal,入口传送门
+block_iron_bed,Iron Bed,铁床
+block_iron_chair,Iron Chair,铁椅
+block_iron_chandelier,Large Gold Chandelier,黄金大吊灯
+block_iron_chandelier_small,Iron Chandelier,铁吊灯
+block_iron_door,Iron Door,铁门
+block_iron_ladder,Iron Ladder,铁梯
+block_iron_lamp,Iron Lamp,铁灯
+block_iron_sofa,Iron Sofa,铁沙发
+block_iron_storage,Iron Block,铁块
+block_iron_table,Iron Table,铁桌
+block_ladder,Ladder,梯子
+block_lamp,Lantern,小油灯
+block_leaves,Leaves,树叶
+block_letoch,Letoch,乐塔奇
+block_louver,Louver,通风口
+block_marker,Sign,记号
+block_mechanical_guard,F-Dog Mod. B-2,F-Dog Mod. B-2
+block_medium_picture,Medium Picture,中等图片
+block_metal,Metal Block,金属块
+block_metal_plate,Metal Plate,金属板
+block_moss_metal,Moss Metal Block,苔金属块
+block_moss_stone_brick,Moss Stone Brick,苔石砖
+block_obsidian,Obsidian,黑曜石
+block_obsidian_brick,Obsidian Brick,黑曜石砖
+block_obsidian_plate,Obsidian Plate,黑曜石砖板
+block_opened_gift_chest,Opened Gift Chest,已打开的礼物箱
+block_opened_treasure_chest_magic,Empty Treasure Chest,空宝箱
+block_opened_treasure_chest_wood,Empty Treasure Chest,空宝箱
+block_output_portal,Exit Portal,出口传送门
+block_peresvet,Wary Light,含羞之光
+block_pillar,Column,柱
+block_purple_home,Purple Panda House,紫熊猫屋
+block_red_mushroom,Red Mushroom,红蘑菇
+block_rose,Rose,玫瑰
+block_sand,Sand,沙
+block_saw_trap,Saw Trap,锯子陷阱
+block_shop,Shop,商店
+block_shop_exchange,3d Printer 3000,3D打印机（3000型）
+block_skulls,Skulls,骷髅
+block_slug,Fire Roach Slime,火蟑螂黏液
+block_slug_eggs,Fire Roach Eggs,火蟑螂之蛋
+block_small_picture,Small Picture,小图片
+block_small_torch,Faint Torch,小火把
+block_space_ship,Space Ship,太空船
+block_spikes_trap,Spikes Trap,长矛陷阱
+block_statue,Entablature,楣构
+block_stone,Stone,石
+block_stone_brick,Stone Brick,石砖
+block_stone_brick_plate,Stone Brick Plate,石砖板
+block_stone_plate,Stone Plate,石板
+block_surinot_home,Fenik House,狐窝
+block_table,Table,桌
+block_techno_bed,Solidium Bed,超锢床
+block_techno_chair,Solidium Chair,超锢椅
+block_techno_door,Solidium Door,超锢门
+block_techno_plate,Solidium Plate,超锢板
+block_techno_sofa,Solidium Sofa,超固岩沙发
+block_techno_table,Solidium Table,超锢桌
+block_techno_tv,TV,电视机
+block_techno_workbench,Techno Workbench,技术工作台
+block_throne,King's Throne,王座
+block_tile_plate,Tile Plate,瓷板
+block_tileroof,Roof,屋顶
+block_torch,Torch,火把
+block_totem,Totem,图腾
+block_treasure_chest,Treasure Box,宝盒
+block_treasure_chest_gold,Golden Treasure Chest,金宝箱
+block_treasure_chest_magic,Magic Treasure Chest,魔法宝箱
+block_treasure_chest_wood,Wooden Treasure Chest,木宝箱
+block_tree_seedling,Tree Seedling,树苗
+block_tulpan,Tulip,郁金香
+block_tvforwall,TV,电视机
+block_web,Cobweb,蛛网
+block_white_brick,White Brick,白砖
+block_white_brick_plate,White Brick Plate,白砖板
+block_window,Window,窗
+block_witches_mushroom,Witch Mushroom,巫术蘑菇
+block_wood,Wood,木头
+block_wood_door,Door,门
+block_wood_planks,Wood Plank,木条
+block_wood_plate,Wooden Plate,木板
+block_wood_trapdoor,Trapdoor,活板门
+block_workbench,Workbench,工作台
+block_workshop,Med Station,医务站
+block_yellow_mushroom,Yellow Mushroom,黄蘑菇
+boss_gargoule,Ancient Guard,古代守卫
+boss_gnome,Overthrown King,被推翻的国王
+boss_shadow_mosquiton,Shadow Mosquiton,影子喽啰
+boss_shadow_tyrant,Shadow Tyrant,影子君主
+boss_shadow_ufo,Shadow Imperator,影子最高统治者
+boss_spider,King Mosquiton,莫斯奎登国王
+boss_transformer,Ancient Guard,古代守卫
+boss_ufo,Imperator Finalium,费纳利姆大将军
+boss_zombie,Tyrant,独裁者提蓝特
+buff_burn,Burning,火烧
+buff_experience,Extra XP,额外经验值
+buff_freezing,Freezing,冰冻
+buff_gills,Gills,鱼腮草
+buff_healing,Healing,治疗
+buff_invisibility,Invisibility,隐形
+buff_levitation,Levitation,悬浮
+buff_light,Lighting,闪电
+buff_poison,Poisoning,下毒
+buff_speed,Increase Speed,提高速度
+buff_stun,Stun,电击
+buff_telekinesis,Telekinesis,意念
+buff_web,Cobweb,布网
+character,character,角色
+drop_text,Drop:,奖杯:
+error_game_init,"Failed to create video output. Please, check updates of your video driver ;(
+
+If you are webmaster try to set 'wmode' to 'direct'.","未能创建视频输出。请检查您的视频驱动程序的更新；（
+
+如果你是网管，请尝试将‘wmode’设为‘direct’）"
+hint_bailer,"You need to water farmland once in a while 
+to prevent it from drying up.","你需要隔一段时间给农田浇水，
+防止变干。"
+hint_burn_web,"You can burn a cobweb 
+by <font color='#99D4FF'>[Right Click]</font> on your character","你可以<font color='#99D4FF'>[右击]</font> 角色，
+将蛛网烧去"
+hint_cant_burn_web,I have no torches.,我没有火把。
+hint_cant_healing,I'm already healing.,我已经正在恢复中。
+hint_cant_use_broken_item,"It's broken! 
+I can't use it anymore.","已经损坏！
+我无法再使用它。"
+hint_chest_lock,"The safe is locked. 
+I need a Key Card.","保险柜上了锁。
+我需要一张钥匙卡。"
+hint_drank_first_potion,"To cancel potion effect 
+click its icon on the left side of the screen.","要解除药水效果，
+点击屏幕左侧其图标。"
+hint_first_night,"It’s my first night here. 
+I’d better be cautious.","这是我在这里的头一个夜晚。
+我得小心些。"
+hint_healing_not_required,I don’t need to heal right now.,此刻我不需要治疗。
+hint_need_arrows,I need arrows!,我需要弓箭！
+hint_need_bolts,I need bolts!,我需要十字弓弓箭！
+hint_need_bullet,I need bullets!,我需要子弹！
+hint_need_energy,I need enegry!,我需要能量！
+hint_need_fuel_canister,I need some fuel!,我需要一些燃料！
+hint_need_poweredenergy,I need shotgun cartridge!,我需要散弹枪弹药！
+hint_select_mob,"<font color='#99D4FF'>[Right click]</font> on a creature 
+to get info about it.","<font color='#99D4FF'>[右击]</font> 一个生物查 
+看有关信息。"
+hint_set_plate,"<font color='#99D4FF'>[Right Click]</font> to switch position of the plate.
+ Press <font color='#99D4FF'>[S]</font> to jump down from it.","<font color='#99D4FF'>[右击]</font> 改变板子位置。
+ 按 <font color='#99D4FF'>[S]</font> 跳下。"
+hint_set_spawn,"You will now spawn here 
+in case you die.","如果你的角色死亡 
+你将在这重生。"
+hint_set_torch,"You can hold <font color='#99D4FF'>[Shift]</font> 
+to quickly switch to the torch while holding another item","按住 <font color='#99D4FF'>[shift]</font> 
+可在火把和手持另一个物品之间迅速切换"
+hint_short_level,"I haven’t reached required level 
+for using this item.","我还没有达到这个物品 
+的需要级别。"
+hint_treasure_chests,"You can find chests with items and magical artifacts 
+by exploring a dungeon.",你可以通过探索地下城找到装有物品和魔法器物的箱子。
+item_alligator,Alligator,短吻鳄
+item_anaptanium_boots,Anaptanium Boots,锐钛靴子
+item_anaptanium_chestplate,Anaptanium Chestplate,锐钛护胸
+item_anaptanium_helmet,Anaptanium Helmet,锐钛头盔
+item_antidote_potion,Antidote,解毒药剂
+item_apple,Apple,苹果
+item_armored_zombie_card,Zombie Guardian Card,僵尸护卫卡
+item_arrow,Arrow,弓箭
+item_bagpipes,Guitar,吉他
+item_bailer,Watering Can,浇水壶
+item_battery,Battery,电池
+item_big_spider_card,Big Spider Card,巨蜘蛛卡
+item_blaster,Blaster,轰天枪
+item_blasterenergy,Plasma Battery,等离子电池
+item_blasterpoweredenergy,Shotgun Cartridge,散弹枪弹药
+item_bloody_sunrise_katana,Bloody Sunrise Katana,血腥日出武士刀
+item_boar_card,Boar Card,野猪卡
+item_bolt,Bolt,十字弓弓箭
+item_bottle_with_water,Bottle of Water,有水的瓶子
+item_bow,Bow,弓
+item_bowler_hat,Bowler Hat,礼帽
+item_branch_tree_small_description,Branch,树枝
+item_bronze_axe,Bronze Axe,铜斧
+item_bronze_bar,Bronze Ingot,铜锭
+item_bronze_chainmail,Bronze Chestplate,铜胸甲
+item_bronze_greaves,Bronze Boots,铜靴
+item_bronze_hammer,Bronze Hammer,铜锤
+item_bronze_helmet,Bronze Helmet,铜头盔
+item_bronze_ore,Bronze Ore,铜矿
+item_bronze_pickaxe,Bronze Pickaxe,铜稿
+item_bronze_shovel,Bronze Shovel,铜铲
+item_bronze_sword,Bronze Sword,铜剑
+item_bucket_with_magma,Bucket with Magma,有岩浆的桶子
+item_bucket_with_water,Bucket with Water,有水的桶子
+item_bullet,Bullets,子弹
+item_cage_with_hare,Cage with Chicken,有鸡的笼子
+item_cage_with_surinot,Cage with Fenik,有狐的笼子
+item_carrot,Pineapple,菠萝
+item_carrot_seed,Pineapple Seed,菠萝籽
+item_change_gender_potion,Change Gender Potion,变性药剂
+item_change_position_potion,Random Teleportation Potion,随机传送药剂
+item_circular_saw,Circular Saw,圆形锯
+item_coal,Coal,煤
+item_cosmo_helmet,Cosmo Helmet,宇宙头盔
+item_crossbow,Crossbow,十字弓
+item_damzan_eagle,Damzan's Eagle,大马萨之鹰
+item_demonic_sword,Sword of Abyss,深渊之剑
+item_desc_Iron_lamp,Can be placed on the wall.,可挂在墙上。
+item_desc_alchemical_table,It is used to make potions. [Right Click] to use Alchemist Table,它用于制作药剂。[右击]使用治疗台。
+item_desc_anaptanium_armor,Armor set using unknown materials from another planet.,盔甲套装使用来自另一个星球的未知套装。
+item_desc_antidote_potion,Cures Poison.,解毒。
+item_desc_anvil,It is used to craft iron items and other crafting. [Right Click] to use Anvil,它用于打造铁制物品等其它物品。[右击]使用铁砧。
+item_desc_arrow, Arrows are used as bow ammo. Insert arrows in Ammo Slot.,弓箭用作弓箭的弹药。将弓箭放入弹药槽中。
+item_desc_axe,It is used for cutting trees.,它用于砍树。
+item_desc_bagpipes,Hold [Left Click] to play the guitar,按住[左键]弹吉他。
+item_desc_bailer,It is used to water farmland. [Left Click] on water to fill it and [Left Click] to water.,它用于灌溉农田。[左击]水将水瓢装满，再[左击]来浇灌。
+item_desc_battery,It is used to give energy to something.,它用于为物件提供能量。
+item_desc_bed,Set a spawning point. [Right Click] to activate Bed,设置再生地点。[右击]启用床。
+item_desc_blaster,It is used to fire with plasma. Place plasma battery in Ammo Slot.,它用于等离子射击。将等离子电池放在弹药槽中。
+item_desc_blasterenergy,It is used as plasma ammo. Place it in Ammo Slot.,它用作等离子的弹药。将其放在弹药槽中。
+item_desc_blasterpoweredenergy,It is used as shotgun ammo. Place it in Ammo Slot.,它用作散弹枪的弹药。将其放在弹药槽中。
+item_desc_blue_coral,Radiates blue glow.,有蓝光。
+item_desc_blue_mushroom,It is used to make banner.,它用于制作条幅。
+item_desc_bluetail_home,A Globunny appears along with its house. [Left Click] to feed it with vegetables,有一只乖怪兔出现了，还有它的窝。[左击]用菜喂它。
+item_desc_bolt,It is used as crossbow ammo. Place it in Ammo Slot.,它用作十字弓的弹药。将其放在弹药槽中。
+item_desc_book_memories,This book contains knowledge of the world. [Right Click] to open.,本书中是有关这一星球的知识。[右击]打开。
+item_desc_book_memories_part2,This book contains knowledge of the world. [Right Click] to open.,这本书包含了这个世界的信息。【Right Click】打开
+item_desc_book_shadows,This ancient computer contains knowledge of the higher monsters. [Right Click] to open.,这台远古计算机上存有高等怪物的知识。[右击]打开。
+item_desc_bottle_with_water,It is used to craft potions and extinguishing fires.,它用于制作药剂和灭火。
+item_desc_bouquet,Can be placed on a the table.,可放在桌上。
+item_desc_bow,It is used to fire from afar. Place ammo in Ammo Slot.,它用于远程射击。将弓箭放在弹药槽中。
+item_desc_brick,It is crafted by burning clay in furnace.,它是在熔炉中用粘土烧制而成的。
+item_desc_bronze_bar,It is used to craft bronze items.,它用于打造铜物品。
+item_desc_bronze_ore,It is smelted to bronze ingot.,它用于炼铜锭。
+item_desc_bronze_pickaxe,"It is used for mining solid blocks, coal, bronze ore and iron ore.",它用于开采砖块、煤、铜矿石和铁矿石。
+item_desc_bucket_with_magma,[Left Click] to pour magma where there are no blocks or other liquids.,[左击]将岩浆倒在没有砖块或其它液体的地方。
+item_desc_bucket_with_water,[Left Click] to pour water where there are no blocks or other liquids.,[左击]将水倒在没有砖块或其它液体的地方。
+item_desc_bullet,It is used as pistol or revolver ammo. Place it in Ammo Slot.,它用作手枪或左轮手枪的弹药。将其放在弹药槽中。
+item_desc_burner,It is used to annihilate items. [Right Click] to use Burner,它用于销毁物品。[右击]使用焚烧器
+item_desc_cage_with_animal,[Right Click] on empty space to release an animal,在空地上[右击]放走动物。
+item_desc_candelabrum,Can be placed on a table.,可放在桌上。
+item_desc_chainmail,Can be used as protection. Place it in Chestplate Slot.,用作防护。将其放在胸甲槽中。
+item_desc_change_gender_potion,This Potion will change your gender. Be careful! You need a second potion to change everything back.,本药剂会改变角色性格。小心！你还需要一支才能将一切还原。
+item_desc_change_position_potion,This Potion will randomly teleport you.,本药剂会传送你到随机地点。
+item_desc_chest,It is used to store items. [Right Click] to use Chest,它用于存放物品。[右击]使用箱子。
+item_desc_clay,It is used to make Bricks and Roof tiles.,它用于制造砖和房瓦。
+item_desc_clothing,Can be set in Clothes Slot.,可放在衣物槽中。
+item_desc_coal,It is used as a fuel. Burns four times as long as wood.,它用于燃料。比木头燃烧长三倍的时间。
+item_desc_cobblestone,It is smelted to stone.,它用于炼矿石。
+item_desc_crossbow,It is used to fire from afar with bolts. Place bolts in Ammo Slot.,它用于远程十字弓弓箭射击。将十字弓弓箭放在弹药槽中。
+item_desc_demonic_sword,The most powerful sword that can created by man.,人类所能造的最强大的剑。
+item_desc_diamond_ore,It is used to craft battery or craft energy items.,它用于制造电池或能量物品。
+item_desc_diamond_pickaxe,"It is used for mining solid blocks, coal, bronze ore, iron ore, gold ore, energy crystals and solidium ore.",它用于开采各种砖块、煤、铜矿石、铁矿石、金矿石、能量水晶和超锢矿石。
+item_desc_door,It is placed between two solid blocks. [Right Click] to open or close the door,门是放在两块砖块之间。[右击]打开或关上门。
+item_desc_dragon_helmet,The legend says that only the chosen warriors can get this helmet.,传说只有少数武士才能得到这种头盔。
+item_desc_empty_bottle,A Bottle with water can be used to craft potions and extinguishing fires. [Left Click] on water to fill it.,装了水的瓶子可用于制作药水和灭火。[左击]水将瓶子装满。
+item_desc_empty_bucket,It is used to store liquids. [Left Click] to fill it with water or magma.,它用于存储液体。[左击]用水或岩浆将它装满。
+item_desc_empty_cage,It is used to catch an animal. Approach the animal and [Left Click] on it,它拥于捕猎。靠近一只动物，再[左击]它。
+item_desc_essence_live,It is used to make Healing Potion.,它用于制作治疗药剂。
+item_desc_experience_potion,It is used to increase the speed of gaining XP.,它用于增加获得经验值的速度。
+item_desc_fire_iron_bar,It is used to craft solidium items.,它用于打造超锢物品。
+item_desc_fire_iron_ore,It is smelted to solidium ingot.,它用于炼超锢锭。
+item_desc_fire_iron_pickaxe,"It is used for mining solid blocks, coal, bronze ore, iron ore, gold ore, energy crystals and solidium ore.",它用于开采各种砖块、煤、铜矿石、铁矿石、金矿石、能量水晶和超锢矿石。
+item_desc_fireflower,Radiates orange glow.,有橙色光。
+item_desc_flamethrower,It is used to burn. Place fuel canister in Ammo Slot.,那是用来烧的，把燃料罐放进弹药槽里。
+item_desc_flamethrower_canister,It is used as fuel for flamethrower. Place it in Ammo Slot.,这是火焰喷射器的燃料，放进弹药槽里。
+item_desc_furnace,It is used to smelt ingots and other crafting. [Right Click] to use Furnace,它用于熔化锭。[右击]使用熔炉。
+item_desc_gilliweed,It is used to make Gills Potion.,它用于制作鱼腮药剂。
+item_desc_gilliweed_seed,Can be used to grow Gillweed. [Left Click] to put to underwater dirt surface.,可用于种植鱼腮草。[左击]将其放在水底。
+item_desc_gills_potion,Can grow gills to breathe underwater.,可以长出鱼腮以在水下呼吸。
+item_desc_glass,It is crafted by burning sand in furnace.,它是在熔炉中用沙子烧制而成的。
+item_desc_gold_bar,It is used to craft golden items.,它用于打造金物品。
+item_desc_gold_ore,It is smelted to gold ingot.,它用于炼金锭。
+item_desc_gold_pickaxe,"It is used for mining solid blocks, coal, bronze ore, iron ore, gold ore, energy crystals and solidium ore.",它用于开采砖块、煤、铜矿石、铁矿石、金矿石、能量水晶和超锢矿石。
+item_desc_grass,Spreads to nearest dirt blocks.,会蔓延到附近土块上。
+item_desc_great_healing_potion,Fully restores health.,恢复所有生命点数。
+item_desc_greaves,Can be used as protection. Place it in Pants Slot.,用作防护。将其放在裤子槽中。
+item_desc_green_coral,Radiates green glow.,有绿光。
+item_desc_grindol_crown,A crown one of the Goblin King used to own. Wearing it grants goblin’s assistance.,哥布林王曾拥有的皇冠。戴着它可获得哥布林的帮助。
+item_desc_gromon,Elegant and technological weapon using the power of a laser. [Right Click] to strike with a devastating blast.,优雅、高科技的激光武器。[右击]射出具有毁灭性的一枪。
+item_desc_guest_portal,Sets a spawning point for planet guests. [Right Click] to activate Portal,为星球客人设置一个产生地点。[右击]启用传送门
+item_desc_hammer,It is used for breaking walls.,它用于破墙。
+item_desc_healing_potion,Partially restores health.,恢复部分生命点数。
+item_desc_helmet,Can be used as protection. Place it in Helmet Slot.,用作防护。将其放在头盔槽中。
+item_desc_hero_statue,The Great Liberator,伟大的救世主
+item_desc_horn_gargoyle,Induction Ring directs you to mighty beasts in the Planet. Should the mighty one be nearby the Induction Ring glowing particles towards it.,指引戒指带你前往星球上超强怪物。如果附近有超强怪物，指引戒指会朝着怪物闪出亮点。
+item_desc_invisibility_potion,Makes character invisible for creatures. The effect wears off by attacking or placing solid blocks.,让角色对生物隐形。攻击或放置砖块会减弱效果。
+item_desc_invisibility_powder,It is used to make Invisibility Potion or Sticky Dynamite.,它用于制作隐形药剂或粘性炸弹。
+item_desc_iron_bar,It is used to craft iron items.,它用于打造铁物品。
+item_desc_iron_ore,It is smelted to iron ingot.,它用于炼铁锭。
+item_desc_iron_pickaxe,"It is used for mining solid blocks, coal, bronze ore, iron ore, gold ore and energy crystals.",它用于开采砖块，煤、铜矿石、铁矿石、金矿石和能量水晶。
+item_desc_ladder,You can climb it with [W] and [S],你可以用[W]和[S]键爬梯子
+item_desc_lamp,"Can be held, placed on the table or attached to the blocks.",可手拿，放在桌上或者固定在砖块上。
+item_desc_letoch,It is used to make potions.,它用于制作药剂。
+item_desc_levitation_potion,Allows to jump higher and levitate.,可以跳地更高，并悬浮。
+item_desc_light_potion,It is used to light the environment.,它用于照亮周围环境。
+item_desc_luminary,An ancient axe crafted 1000 years ago. Tyrantium contains pure evil inside. [Right Click] to radiate a guiding light which is strong enough to instantly burn zombies.,一把在1000年前打造的古代斧。暴君之斧有一股妖气。[右击]放出带路的光线，伤害足以立刻烧死僵尸。
+item_desc_marker,[Right Click] to write text on a sign,[右击]在标记上写字。
+item_desc_meat,Restores Health. Can be fried.,恢复生命。可烤。
+item_desc_mechanical_guard,It’s a RoboProtector MARK XII who will be protecting you till it dies. You need to wait 3 min to activate the RoboProtector.,RoboProtector MARK XII将誓死保护你。你要等待3分钟才能激活RoboProtector。
+item_desc_med_station,It is used to make advanced potions. [Right Click] to use Med Station,它用于制作高级药水。[右击]医务站。
+item_desc_miniblaster,It is used to fire with plasma. Place plasma battery in Ammo Slot.,它用于等离子射击。将等离子电池放在弹药槽中。
+item_desc_minicrossbow,It is used to fire with bolts. Place bolts in Ammo Slot.,它用于发射十字弓弓箭。将十字弓弓箭放在弹药槽中。
+item_desc_moss_metal,Moss Metal Brick.,苔金属砖块。
+item_desc_obsidian,Formed when water hits magma source.,当水遇熔岩时形成
+item_desc_part_of_trap,It is used to craft traps.,它用于制作陷阱。
+item_desc_peresvet,Blooms and radiates light if no one is around.,周围没人的时候开花和闪烁。
+item_desc_picker,It is used to plow dirt. [Left Click] to plow.,它用于耕地。[左击]进行耕种
+item_desc_plate,[Right Click] to switch position of the plate.,[右击]切换板子位置。
+item_desc_proto_armor,Armor set using atomic super power and the best materials of the future.,使用原子超能量和未来最强材料制作的盔甲套装。
+item_desc_purple_home,A Purple Panda appears along with its house. [Left Click] to feed it with vegetables,有一头紫熊猫出现了，还有它的窝。[左击]用菜喂它。
+item_desc_red_mushroom,It is used to make potions. Spreads to nearest blocks.,它用于制作药剂。会蔓延到附近砖块上。
+item_desc_resin,It is used to craft Faint Torch.,它用于制造小火把。
+item_desc_revolver,It is used to fire with bullets. Place bullets in Ammo Slot.,它用于发射子弹。将子弹放在弹药槽中。
+item_desc_roast,Restores Health.,恢复生命。
+item_desc_sand,It is used to make Glass at a Furnace.,它用于在熔炉中制造玻璃。
+item_desc_scroll_teleport,It is used to teleport to the spawning point.,它用于传送到产生地点。
+item_desc_seed,[Left Click] to plant seeds on watered farmland,在灌溉好的农田上[左击]来播种
+item_desc_shears,It is used to mine grass blocks. [Left Click] to mine it.,它用于挖掘玻璃砖块。[左击]进行挖掘。
+item_desc_shootgun,Bullets are used for range attack. Insert bullets in Ammo Slot.,子弹用于远程攻击。将子弹放入弹药槽中。
+item_desc_shop_exchange,You can reproduce materials using various ores in this 3d printer.,你可以在这个3D打印机中用各种矿石获得材料。
+item_desc_shovel,It is used for digging dirt.,它用于挖土。
+item_desc_slug_eggs,Radiates orange glowing.,有橙色光
+item_desc_sofa,Sofa,沙发
+item_desc_speed_potion,It is used to increase speed.,它用于增加速度。
+item_desc_stick_shadow,The Shadow Candle directs you to shadow in the Planet. Should the mighty one be nearby the Shadow Candle glowing particles towards it. Keep the Shadow Candle in hand to meet shadow,影子蜡烛会指引你这个星球阴暗的方向，那个强大的人就在它指引的方向。把影子蜡烛拿在手里，去见他吧。
+item_desc_stone_pickaxe,"It is used for mining solid blocks, coal and bronze ore.",它用于开采砖块、煤和铜矿石。
+item_desc_surinot_home,A Fenik appears along with its house. [Left Click] to feed it with vegetables,有一只狐出现了，还有它的窝。[左击]用菜喂它。
+item_desc_sword,It is used as a weapon.,它用作武器。
+item_desc_sword_depths,Powerful sword. The pure force in your hands.,强大的剑。手握着的神力。
+item_desc_techno_workbench,It is used to craft advanced various items. [Right Click] to use Techno Workbench,它用于打造各种高级物品。[右击]使用技术工作台。
+item_desc_tileroof,It is crafted by bricks on workbench.,它是在工作台上用砖块制作成的。
+item_desc_torch,It is used to light up the area. You can hold [Shift] to quickly switch to the torch while holding another item.,它用于照亮周围。你可以按住[Shift]迅速地在火把和拿着的另一个物品之间切换。
+item_desc_trapdoor,It is placed between two solid blocks. [Right Click] to open or close the trapdoor,能放在两块砖块之间。[右击]打开或关上活板门。
+item_desc_treasure_key,It is used to open a treasure box.,它用于打开宝箱。
+item_desc_tree_seedling,Plow and water dirt to plant a seedling,耕地、浇水来种小树苗。
+item_desc_vegetables,Can be used to feed your pets.,可用于喂你的宠物。
+item_desc_window,Can be placed between two solid blocks. [Right Click] to open or close the window,能放在两块砖块之间。[右击]打开或关上窗户。
+item_desc_witches_mushroom,It is used to make potions. Spreads to nearest blocks. Radiates blue glow.,它用于制作药剂。会蔓延到附近砖块上。有蓝光。
+item_desc_wood,It is used as a fuel.,它用于燃料。
+item_desc_wood_pickaxe,"It is used for mining solid blocks, stone block, coal.",它用于开采砖块、石砖块和煤。
+item_desc_workbench,It is used to craft various items. [Right Click] to use Workbench,它用于打造各种物品。[右击]使用工作台。
+item_desc_yellow_mushroom,It is used to make potions.,它用于制作药剂。
+item_desc_zartane_armor,The last king of darkness wore this armor. Heavy like all his sins and powerful like his dark soul. It's yours now but be fearful of becoming the next tyrant.,最后一位黑暗王穿的盔甲。盔甲沉，似他犯下的罪行；盔甲野蛮，如他的残暴性情。现在它是你的，小心成为下一个暴君。
+item_diamond,Energy Crystal,能量水晶
+item_diamond_axe,Chainsaw,电锯
+item_diamond_chainmail,Obsidian Chestplate,黑曜石胸甲
+item_diamond_greaves,Obsidian Boots,黑曜石靴
+item_diamond_hammer,Pneumatic Hammer,气动锤
+item_diamond_helmet,Obsidian Helmet,黑曜石头盔
+item_diamond_pickaxe,Giga Drill,破天镐
+item_diamond_shovel,Giga Drill,钻石铲
+item_diamond_sword,Obsidian Sword,黑曜石剑
+item_egg,Egg,蛋
+item_eggplant,Corn,玉米
+item_eggplant_seed,Corn Seed,玉米籽
+item_empty_bottle,Empty Bottle,空瓶子
+item_empty_bucket,Empty Bucket,空桶子
+item_empty_cage,Empty Cage,空笼子
+item_essence_live,Essence of Life,永生药剂
+item_experience_potion,XP Potion,经验值药剂
+item_exterminatus,Exterminatus,灭绝者
+item_farework,Dynamite,炸药
+item_feather_chicken,Feather Chicken,鸡毛
+item_female_card,Female Character Card,女性角色卡
+item_fire_iron_axe,Solidium Axe,超锢斧
+item_fire_iron_bar,Solidium Ingot,超锢锭
+item_fire_iron_chainmail,Solidium Chestplate,超锢胸甲
+item_fire_iron_greaves,Solidium Boots,超锢靴
+item_fire_iron_hammer,Solidium Hammer,超锢锤
+item_fire_iron_helmet,Solidium Helmet,超锢头盔
+item_fire_iron_ore,Solidium Ore,超锢矿
+item_fire_iron_pickaxe,Solidium Pickaxe,超锢锄头
+item_fire_iron_shovel,Solidium Shovel,超锢铲
+item_fire_iron_sword,Solidium Sword,超锢剑
+item_fire_zombie_card,Fire Zombie Card,火焰僵尸卡
+item_flamethrower,Flamethrower,火焰喷射器
+item_fried_egg,Fried Egg,煎蛋
+item_fuel_canister,Fuel canister,燃料罐
+item_gear,Metal Parts,金属零件
+item_gelineya_seed,Geliney Seed,戈里尼籽
+item_gilliweed,Gillweed,鱼腮草
+item_gilliweed_seed,Gillweed Seeds,鱼腮草籽
+item_gills_potion,Gills Potion,鱼腮药剂
+item_gnome_alchemist_card,Alchemist Dwarf Card,医疗侏儒卡
+item_gnome_glasses,Biker Glasses,骑手眼镜
+item_gnome_miner_card,Miner Dwarf Card,矿工侏儒卡
+item_gnome_warrior_card,Warrior Dwarf Card,武士侏儒卡
+item_gold_axe,Golden Axe,金斧
+item_gold_bar,Gold Ingot,金锭
+item_gold_chainmail,Golden Chestplate,黄金胸甲
+item_gold_greaves,Golden Boots,金靴
+item_gold_hammer,Golden Hammer,金锤
+item_gold_helmet,Golden Helmet,黄金头盔
+item_gold_ore,Gold Ore,金矿
+item_gold_pickaxe,Golden Pickaxe,金镐
+item_gold_shovel,Golden Shovel,金铲
+item_gold_sword,Golden Sword,金剑
+item_great_healing_potion,Concentrated Healing Potion,浓缩治疗药剂
+item_grindol_crown,Galaxy Imperator Crown,星系之冠
+item_gromon,Sword of Universe,宇宙之剑
+item_hamster_banner,Poster Hamster in Space,太空中的小仓鼠海报
+item_healing_potion,Healing Potion,治疗药剂
+item_hood,Night Cap,夜行帽
+item_horn_gargoyle,Path Ring,道路之戒指
+item_horse_mask,Horse Mask,马面具
+item_info_broken,Broken,已完全损坏
+item_info_chance_drop,Drop Chance: {0}%,出现几率：{0}%
+item_info_crit,Critical Hit Chance,爆击机率
+item_info_damage,Damage,伤害
+item_info_defense,Defense,防御
+item_info_durability,Durability,耐久度
+item_info_per_sec,per sec,每秒
+item_info_required_level,Required Level,需要等级
+item_info_speed,Speed,速度
+item_info_speed_average,average,一般
+item_info_speed_high,high,较快
+item_info_speed_low,low,较慢
+item_info_speed_very_high,very high,很快
+item_info_speed_very_low,very low,很慢
+item_info_strength,Shot,发射力度
+item_info_strength_average,average,中等
+item_info_strength_heavy,heavy,强
+item_info_strength_weak,week,弱
+item_invisibility_potion,Invisibility Potion,隐形药剂
+item_invisibility_powder,Slime Jellyfish,黏液水母
+item_iron_axe,Iron Axe,铁斧
+item_iron_bar,Iron Ingot,铁锭
+item_iron_chainmail,Iron Chestplate,铁胸甲
+item_iron_dragon_helmet,Dragon Helmet,龙盔
+item_iron_greaves,Iron Boots,铁靴
+item_iron_hammer,Iron Hammer,铁锤
+item_iron_helmet,Iron Helmet,铁头盔
+item_iron_ore,Iron Ore,铁矿
+item_iron_pickaxe,Iron Pickaxe,铁镐
+item_iron_pirate_body,Pirate Jacket,海盗甲
+item_iron_pirate_helmet,Pirate Hat,海盗帽
+item_iron_pirate_legs,Pirate Boots,海盗靴
+item_iron_shovel,Iron Shovel,铁铲
+item_iron_sword,Iron Sword,铁剑
+item_latchkey,Lock pick,开锁丝
+item_leather,Leather,皮
+item_leather_chainmail,Leather Chestplate,皮制胸甲
+item_leather_greaves,Leather Boots,皮靴
+item_leather_helmet,Leather Helmet,皮头盔
+item_leather_sheep,Leather Sheep,羊皮
+item_letoch_seed,Letoch Seed,乐塔奇籽
+item_levitation_potion,Levitation Potion,悬浮药剂
+item_light_potion,lighting Potion,闪电药剂
+item_luminary,Tyrantium,暴君之斧
+item_mad_gnome_card,Mad Dwarf Card,疯狂侏儒卡
+item_mage_body_black,Chicken Cape,鸡披风
+item_mage_body_gray,White Shirt,白衬衣
+item_mage_body_green,Strange's Jacket,陌生人之衣
+item_mage_body_purple,Protective Suit,防护服
+item_mage_head_black,Chicken Hood,鸡衣帽
+item_mage_head_gray,Red Cap,红帽
+item_mage_head_green,Stranger's Hat,陌生人之帽
+item_mage_head_purple,Gas Mask,防毒面具
+item_mage_legs_black,Chicken Pants,鸡裤子
+item_mage_legs_gray,Pants,裤子
+item_mage_legs_green,Stranger's Pants,陌生人之裤
+item_mage_legs_purple,Protective Boot,防护靴
+item_male_card,Male Character Card,男性角色卡
+item_meat,Raw Meat,生肉
+item_meat_fish,Raw Fish,生鱼
+item_miniblaster,Mini Blaster,小型轰天枪
+item_minicrossbow,Crossbow,十字弓
+item_picker,Hoe,锄头
+item_prot_crystal,Defense Crystal,防御水晶
+item_proto_chainmail,Atomic Chestplate,原子胸甲
+item_proto_greaves,Atomic Boots,原子靴
+item_proto_helmet,Atomic Helmet,原子头盔
+item_pumpkin,Cabbage,包菜
+item_pumpkin_seed,Cabbage Seed,卷心菜籽
+item_resin,Resin,树脂
+item_revolver,Revolver,左轮手枪
+item_roast,Fried Meat,烤肉
+item_roast_fish,Fried Fish,烤鱼
+item_rocket_banner,Poster Interstellar,星际海报
+item_rose_seed,Rose Seed,玫瑰籽
+item_rude_mace,Rude Mace,凶蛮钉头锤
+item_scottish_jacket,Cosmo Chestplate,宇宙胸甲
+item_scottish_skirt,Cosmo Boots,宇宙靴
+item_scroll_teleport,Teleportation Tab,传送药片
+item_scythe,Scythe of Death,死亡之镰
+item_shears,Shears,剪子
+item_shootgun,Shotgun,散弹枪
+item_skeleton_archer_card,Skeleton Archer Card,骷髅弓箭手卡
+item_space_marine_boots,Space Force Boots,太空舰队靴
+item_space_marine_chestplate,Space Force Chestplate,太空舰队胸甲
+item_space_marine_helmet,Space Force Helmet,太空舰队头盔
+item_speed_potion,Speed Potion,速度药剂
+item_spider_card,Spider Card,蜘蛛卡
+item_stick_shadow,Shadow Candle,影子蜡烛
+item_sticky_dynamite,Sticky Dynamite,粘性炸弹
+item_stone_axe,Stone Axe,石斧
+item_stone_hammer,Stone Hammer,石锤
+item_stone_pickaxe,Stone Pickaxe,石镐
+item_stone_shovel,Stone Shovel,石铲
+item_stone_sword,Cudgel,棒子
+item_sword_depths,Light Sword,光剑
+item_tiny_spider_card,Small Spider Card,小蜘蛛卡
+item_trader_jacket,Pajamas Jacket,睡衣
+item_trader_pants,Pajamas Pants,睡裤
+item_treasure_key,Key Card,钥匙卡
+item_tulpan_seed,Tulip Seed,郁金香籽
+item_wood_pickaxe,Wooden Pickaxe,木镐
+item_wooden_chainmail,Wooden Chestplate,木胸甲
+item_wooden_greaves,Wooden Boots,木靴
+item_wooden_helmet,Wooden Helmet,木头盔
+item_zartane_chainmail,Tyrant Chestplate,独裁者之胸甲
+item_zartane_greaves,Tyrant Boots,独裁者之靴
+item_zartane_helmet,Tyrant Helmet,独裁者之头盔
+item_zombie_card,Zombie Card,僵尸卡
+language,language,语言
+lighthouse_lamp,Lamp of Lighthouse,灯塔之灯
+mob_armored_zombie,Armored Zombie,盔甲僵尸
+mob_banny,Banny,乖怪兔
+mob_big_dog,F-Dog Mod. B-2,F-Dog Mod. B-2
+mob_big_spider,Big Insect,巨虫
+mob_bluetail,Globunny,乖怪兔
+mob_boar,Boar,野猪
+mob_chicken,Chicken,鸡
+mob_coyote,Coyote,土狼
+mob_demon,Exile Demon,被放逐魔鬼
+mob_evil_big_spider,Angry Big Insect,愤怒之巨虫
+mob_evil_tiny_spider,Angry Small Insect,愤怒之小虫
+mob_fed_big_spider,Fed Big Insect,饱食之巨虫
+mob_fed_spider,Fed Insect,饱食之虫
+mob_fed_tiny_spider,Fed Small Insect,饱食之小虫
+mob_fenic,Fenik,狐
+mob_fire_robot,Fire Robot,火焰机器人
+mob_fire_zombie,Shadow Zombie,影子僵尸
+mob_fireblob,Fire Insect,火焰虫
+mob_fish,Fish,鱼
+mob_gargoule,Ancient Guard,古代守卫
+mob_gnome_alchemist,Alchemist Goblin,医疗师哥布林
+mob_gnome_miner,Miner Goblin,矿工哥布林
+mob_gnome_warrior,Warrior Goblin,武士哥布林
+mob_hare,Rabbit,兔
+mob_mad_gnome,Zealot,炸弹狂人
+mob_mech_golem,Mech Golem,机器人
+mob_mech_guard,Mech Guard,机器人护卫
+mob_meduse,Medusa,美杜莎
+mob_npc_dwarf,Seller,商贩
+mob_npc_robot_0,Mech Robot,机械机器人
+mob_npc_robot_1,Med Robot,医务机器人
+mob_npc_trader,Clementine,橘子
+mob_purple,Purple Panda,紫熊猫
+mob_sheep,Sheep,羊
+mob_skeleton_archer,Skeleton Archer,骷髅弓箭手
+mob_spider,Fed Small Insect,饱食之小虫
+mob_spit_zombie,Spit Zombie,口水僵尸
+mob_stone_golem,Mech Miner Robot,矿工机器人
+mob_tiny_spider,Small Insect,小虫
+mob_zombie,Zombie,僵尸
+mod_blunt,Blunt,钝器
+mod_set_anaptanium_armor,Anaptanium Armor,锐钛盔甲
+mod_set_bronze_armor,Bronze Armor,铜甲
+mod_set_diamond_armor,Obsidian Armor,黑曜石铠甲
+mod_set_fire_armor,Solidium Armor,超锢盔甲
+mod_set_gold_armor,Golden Armor,金甲
+mod_set_iron_armor,Iron Armor,铁甲
+mod_set_leather_armor,Leather Armor,皮甲
+mod_set_proto_armor,Atomic Armor,原子铠甲
+mod_set_space_force_armor,Space Force Armor,太空舰队铠甲
+mod_set_zartane_armor,Tyrant Armor,独裁者提蓝特之铠甲
+mod_skillful,Cunning,高品质
+more games,more games,更多游戏
+per_second,per sec.,每秒
+plate_designer_black,Black Plate,黑版
+plate_designer_blue,Blue Plate,蓝板
+plate_designer_green,Green Plate,绿板
+plate_designer_red,Red Plate,红板
+plate_designer_white,White Plate,白板
+plate_designer_yellow,Yellow Plate,黄板
+quest_8_level,Shadow Candle,影子蜡烛
+quest_8_level_desc,"Reach level 8 and get the Shadow Candle, and The Book of Memories Part 2. They will guide you to other bosses.",达到8级获取影子蜡烛和记忆之书第二部分，他们会指引你找到其他boss怪物。
+quest_8_level_task,• Reach level 8,• 达到8级
+quest_alchemist,Alchemy,治疗
+quest_alchemist_desc,You might need some potions in a long run. Healing Potion can restore health while Antidote can cure poisoning. You need an Alchemist Table to produce potions. You can also find potions in treasure chests located in dungeons.,以后你会用到一些药剂。治疗药剂可以回复生命值；解毒药剂可以治疗中毒。你需要一个医疗台来制作药剂。你还可以在地下城的宝箱中找到药剂。
+quest_alchemist_task,"• craft an Antidote
+• craft a Healing Potion","• 制作一支解毒药剂
+• 制作一支治疗药剂"
+quest_book_shadows,Antient Computer,远古计算机
+quest_book_shadows_desc,The Antient Computer lies hidden deep beneath the land. It found its resting place at one of the abandoned laboratories. Search for it. With its guidance you can find dreadful creatures and fight them!,远古计算机被埋藏在很深的地下。它在一个被遗弃的实验室中。去搜寻它。在其引导下，你会遇到可怕的生物，与它们战斗！
+quest_book_shadows_task,• find The Antient Computer,• 找到远古计算机
+quest_first_night,Survive the first night,存活第一夜
+quest_first_night_desc,"This game has real time day and night shift. In daytime sun is shining and creatures are crawling all over the place. But should the night befall, zombies rise to the land to hunt you. You will do well to find cover for the night. Use torches to light up things a bit.",本游戏有实时日夜变化。白天阳光照耀大地，万物在四处忙碌。但是一到了晚上，僵尸会从地下爬出来捕捉你。最好晚上找到一个庇护所。用火把为周围提供一些照明。
+quest_first_night_task,• survive the night,• 存活一夜
+quest_gardener,Gardening,种植
+quest_gardener_desc,"You can grow trees, vegetables, and flowers. You need a hoe, a watering can, seeds or seedlings for that.
+
+First, till the dirt with a hoe. Then, fill the watering can with water to water the farmland. Finally, plant seeds or seedlings on the farmland. Don’t forget to water it once in a while to ensure it grows fast.","你可以种树、蔬菜和鲜花。为此，你需要有锄头、浇水壶、种子或树苗。
+
+然后，给浇水壶装满水来灌溉农田。最后，在农田播下种子，或者种下小树苗。别忘了，要不时地浇水，这样它才长地快。"
+quest_gardener_task,"• grow several flowers
+• grow one tree",• 在一棵树上种几朵花。
+quest_health_and_protection,Health and armor,生命和盔甲
+quest_health_and_protection_desc,"Your character has a health bar. Once it drops to zero you’ll die. You can restore health by eating meat or drinking healing potions. Fried meat restores twice as health as raw meat.
+
+Your character needs armor for protection. It decreases the amount of damage your character gets from monsters. Wearing better armor provides better protection. Collecting the full set of armor provides the best protection. At first you’ll do well with leather armor.","你的角色有生命条。降至零，角色死亡。你可以吃肉或喝生命药剂恢复生命值。烤肉的治疗效果是生肉的一倍。
+
+你的角色需要穿盔甲来获得保护。它可以减少角色被怪兽袭击时的受损伤度。越高级的盔甲的防护能力越好。收集的一整套装的盔甲具有最佳防护力。开始，穿皮甲即可满足你的需要。"
+quest_health_and_protection_task,"• fry several pieces of meat
+• craft a full set of leather armor","• 烤几片肉，
+• 制作出一整套皮甲"
+quest_kill_gargoyle,Laser Sword,激光剑
+quest_kill_gargoyle_desc,"There’s an abandoned lab somewhere in the land. Deep within it's ancient metal guard. Place a special battery in it and the robot comes to life.
+
+Slay this guard to obtain its ancient Path Ring. It will guide you to other bosses.","这里某个地方有一个被遗弃的实验室。在实验室深处有一个古代机器人守卫。将特制的电池放入其中，机器人就会启动。
+
+杀死这个守卫，获得其古老的“道路之戒指”。戒指会指引你去别的超级怪物那里。"
+quest_kill_gargoyle_task,• kill Antient Guard,• 杀死古代守卫
+quest_kill_shadows,Shadow,影子
+quest_kill_shadows_desc,Use Shadow Candle to find and kill Shadow Bosses,使用影子蜡烛找到影子boss并消灭他们
+quest_kill_shadows_task,"• Kill Shadow Mosquiton
+
+• Kill Shadow Tyrant
+
+• Kill Shadow Imperator","• 消灭影子喽啰
+
+• 消灭影子暴君
+
+• 消灭影子最高统治者"
+quest_level_up,Leveling up,正在升级
+quest_level_up_desc,"When your character gains a level, the health will increase, and your character will have new possibilities. For instance, you need to be level 2 to use bronze equipment.
+
+You need experience points to raise your level. You can get experience points by killing monsters. Grab some armor, a sword and off you go to the dungeons! Don’t forget that you lose some of your experience points when dying. Try not to die too often.","当你的角色升了一级，生命点数会增加，你的角色有新机会。例如，你要达到二级才可以使用铜装备。
+
+你需要经验点来升级。可以通过杀怪兽获得经验点。穿上盔甲、拿起剑，前往地下城吧！别忘了，角色死亡会减少一些经验点。减少角色死亡次数。"
+quest_level_up_task,• reach level two,• 升到2级
+quest_metall_items,Bronze equipment,铜器装备
+quest_metall_items_desc,"Bronze armor offers better protection than the leather one and has better durability. The same goes for the rest of the bronze equipment. A bronze pick axe can mine even more blocks than a  wooden one. It can also mine iron ore.
+
+The quality of equipment depends on quality of materials. The best material is solidium. You need anvil to craft bronze items. You can craft a anvil using the workbench.","铜盔甲提供了比皮盔甲更好的保护和耐久度。铜镐比木镐开采更多砖块。它还可以开采铁矿石。装备的质量取决于制材。
+
+最好的材料是超锢矿。你需要铁砧打造铜物品。你可以用工作台建造铁砧。"
+quest_metall_items_task,"• craft bronze sword
+• craft bronze pickaxe
+• craft the full set of bronze armor","打造铜剑
+• 打造铜锄子
+• 打造出一整套铜盔甲"
+quest_mine_ores,Smelting ore,冶炼矿石
+quest_mine_ores_desc,"You can run across ore and energy crystals deep beneath the land. Use ore to craft various items and equipment. To use it, you first need to smelt it in a furnace. You can use wood or coal as fuel.
+
+Venture deep under the surface of the planet to find bronze ore. Depending on how deep down you go, you can encounter valuable resources. You need enhanced tools to mine them. You can craft a furnace using the workbench.","在地下深处，你可能会遇到矿石和能量水晶。用矿石打造各种物品和装备。先需要在熔炉中炼矿石，然后才能使用。你可以用木头或煤作为燃料。
+
+冒险深入地下找到铜矿。根据你下到的地下深度不同，可能遇上珍贵资源。你需要强化后的工具来开采它们。你可以用工作台建造一个熔炉。"
+quest_mine_ores_task,• smelt a few ingots,• 炼几块锭。
+quest_pet,Pet,宠物
+quest_pet_desc,"You can have a pet. You need a cage you can craft with anvil.
+
+Catch a chicken and place it in the cage and craft a house for it using a workbench. You can place a chickenhouse.",你可以养宠物。你需要一个笼子。你可以用铁砧打造鸟笼。将抓来的鸡放入笼中，然后用工作台打造一个鸡舍。你可以放置鸡舍。
+quest_pet_task,• place a Chickenhouse,• 放置鸡舍
+quest_planet_core,The Light in the Darkness,黑暗中的光芒
+quest_planet_core_desc,Explore the world and find the old lighthouse. The old merchant who lives there possesses ancient powerful artifacts that will help you survive on this planet.,探索世界，找到古代灯塔。居住在那里的老商人拥有古老、强大器物，可以帮助你在这个星球上生存。
+quest_planet_core_task,• Find a Lighthouse,• 找到灯塔
+quest_ranged_attack,Firearms,武器
+quest_ranged_attack_desc,It’s not necessary to engage in close combat to kill a monster. You can use a crossbow or a revolver to shoot from afar. Craft the crossbow and a few bolts on the workbench. Place bolts to the Ammo Slot.,要将怪物杀死，不一定要近距离战斗。你可以用十字弓或左轮手枪远距离射击。在工作台上制作一把十字弓和一些弓箭。将十字弓弓箭放在弹药槽。
+quest_ranged_attack_task,• kill a few animals or monsters with a crossbow,• 用十字弓杀死一些动物或怪物。
+quest_registration_rate,Registered Hero,已注册的角色玩家
+quest_registration_rate_desc,"Only the registered player can become the greatest warrior and the best survivor. If you want to save this planet forever online, get special bonuses, and share you awesome screenshots, you know what you have to do...",只有已注册用户才能成为终极武士和最佳生存者。如果你想永远在线拯救这个星球，获得特别奖励，以及分享你精彩截屏，你当然知道怎么做。
+quest_registration_rate_task,• Registrate in ID.Net,• 在ID.Net注册
+quest_shop,3D Printer 3000,3D打印机（3000型）
+quest_shop_desc,Slay a King Mosquiton and you get 3D Printer 3000. You can swap resources to coal and ore there.,杀死莫斯奎登王，可以得到一台3D打印机 3000型。你可以在那用资源换取煤和矿石。
+quest_shop_exhange,Space Blaster,太空轰天枪
+quest_shop_exhange_desc,Slay a mighty Tyrant and claim Space Blaster.,杀死独裁者提蓝特，获得太空轰天枪。
+quest_shop_exhange_task,• kill Tyrant,• 杀死独裁者提蓝特
+quest_shop_task,• kill King Mosquiton,• 杀死莫斯奎登王
+quest_spawn_point,Bed and spawning point,床和再生地点
+quest_spawn_point_desc,Place a bed in your house and Right Click to activate it. Now you will spawn here if you die. But don’t get overexcited – death causes loss of some experience points.,在屋内放一张床，右击启用它。如果角色死亡，会在这里重生。但是别高兴地太早 — 角色死亡会丢失经验值。
+quest_spawn_point_task,• place and activate a bed,• 放置并启用床
+quest_sword_depths,Sword of Universe,宇宙之剑
+quest_sword_depths_desc,The most powerful sword in the galaxy belongs to the great conqueror of the planets and stars. Destroy Imperator Finalium and take possession of this mighty artifact.,宇宙中威力最大的剑，宇宙之王所拥有之剑。打败费纳利姆大将军，获得这个强大的器物。
+quest_sword_depths_task,• Kill Imperator Finalium,• 杀死费纳利姆大将军
+tile_designer_black,Black Block,黑方块
+tile_designer_blue,Blue Block,蓝块
+tile_designer_cage,Cage Block,笼子座
+tile_designer_green,Green Block,绿色块
+tile_designer_red,Red Block,红色块
+tile_designer_white,White Block,白块
+tile_designer_yellow,Yellow Block,黄色块
+tutor_craft_pickaxe,Open the workbench with <font color='#99D4FF'>[Right Click]</font> and craft a pickaxe.,<font color='#99D4FF'>[右击]</font>打开工作台，然后打造一把镐。
+tutor_craft_pickaxe_done,"Be sure to read item description 
+to learn its use.",一定要看看物品说明了解用途。
+tutor_craft_workbench,Open an inventory and create a workbench.,打开物品栏，建造一个工作台。
+tutor_craft_workbench_done,"You can use the workbench 
+to craft various items.",你可以用工作台打造各种物品。
+tutor_destroy_block,"Mine a block with <font color='#99D4FF'>[Left Click]</font> 
+Hold it until the block breaks.","<font color='#99D4FF'>[左击]</font>可以开采砖块。
+按住不放，待砖块碎裂。"
+tutor_destroy_block_done,"Some blocks can be mined 
+with pickaxe only.",有些砖块只可用镐来开采。
+tutor_jump,"I can jump if you press <font color='#99D4FF'>[Space]</font> 
+The longer you hold it the higher I jump.","如果你按 <font color='#99D4FF'>[空格键]</font> 
+我就会跳跃。按住时间越久，跳得越高。"
+tutor_jump_done,I like jumping! Again!,我喜欢跳跃！再来一次！
+tutor_kill_hare,"Get some sheep’s fur. 
+To attack the sheep <font color='#99D4FF'>[Left Click]</font> on it or to empty space toward it. 
+Be sure to get cudgel with you.","获得一些羊皮。 
+ <font color='#99D4FF'>[左击]</font>攻击羊，或在空处点击朝羊的地方运动。 
+一定带上棒子。"
+tutor_kill_hare_done,"Well done! 
+This concludes our tutorial.","好样的！ 
+本次教程到此结束。"
+tutor_left_right_move,Try moving me with <font color='#99D4FF'>[A and D]</font>,要让我移动，可以 <font color='#99D4FF'>[A and D]</font>
+tutor_left_right_move_done,I survived the crash! Unknown planet...,飞船坠落中我幸存下来！一个未知的星球
+tutor_mining_stone,"Crawl into a dungeon and mine some cobblestone. 
+Pickaxe is useless to dig dirt. 
+Be sure to get torches and ladders with you.","下到地下城，采一些石材。 
+镐挖不了土。 
+一定带上火把和梯子。"
+tutor_mining_stone_done,"Use cobblestone to craft 
+stone tools and weapons.",用石材打造石器工具和武器。
+tutor_mining_tree,"Mine some wood 
+from nearby trees.",从附近树上采一些木头。
+tutor_mining_tree_done,"Phew, that should do for a while.",呼哧，这可要挺长时间。
+tutor_place_block,"Place a block of an empty space with <font color='#99D4FF'>[Left Click]</font> 
+If grass is there, cut it."," <font color='#99D4FF'>[左击]</font> 
+将一个砖块放在空地上。如地上有草，会被清除。"
+tutor_place_block_done,"Well done! Now you can try 
+building a small house.","好样的！现在， 
+你要来试着造一个小房子。"
+tutor_place_workbench,"Select the workbench on upper panel 
+and place it on any block.","从上面板中选择工作台， 
+然后放在任何砖块上。"
+tutor_place_workbench_done,Now you can use it.,好了，现在可以使用它了。
+tutor_repair_pickaxe,Your pickaxe is damaged. You should repair it.,你的镐损坏了。你应当修复它。
+tutor_repair_pickaxe_done,"At some point you’ll need to repair your 
+equipment, weapons and armor as their durability drops.",在某一时候，你需要修复装备、武器和盔甲，因为它们的耐久度值会下降。
+tutor_save,Save the planet.,保存星球信息。
+tutor_save_done,"Be sure to save planet 
+before quitting the game.",退出游戏前，请务必保存星球信息。
+ui_background_generate_planet,GENERATE PLANET...,生成星球
+ui_background_generate_planet_hint,(this operation will take a few minutes),（这个操作要花几分钟时间）
+ui_background_loading,LOADING...,正在加载
+ui_background_saving,SAVING...,正在保存
+ui_btn_burn_all,BURN ALL,烧掉所有
+ui_btn_cancel,CANCEL,取消
+ui_btn_close,CLOSE,关闭
+ui_btn_copy_text,COPY TEXT,复制文本
+ui_btn_craft_buy,BUY,购买
+ui_btn_craft_create,CRAFT,打造
+ui_btn_craft_lack_gold,"NOT ENOUGH
+GOLD","缺少
+金子"
+ui_btn_craft_lack_resources,"NOT ENOUGH
+MATERIALS","缺少
+材料"
+ui_btn_craft_required_alchemical,"REQUIRED:
+ALCHEM. TABLE","必须品：
+医疗台"
+ui_btn_craft_required_anvil,"REQUIRED:
+ANVIL","必须品：
+铁砧"
+ui_btn_craft_required_techno_alchemical,"REQUIRED:
+MED STATION","必须品：
+医务站"
+ui_btn_craft_required_techno_workbench,"REQUIRED:
+TECHNO WORKBENCH","必须品：
+技术工作台"
+ui_btn_craft_required_workbench,"REQUIRED:
+WORKBENCH","必须品：
+工作台"
+ui_btn_exchange,EXCHANGE,交换
+ui_btn_get,GET IT NOW,马上获取
+ui_btn_login,LOGIN,登录
+ui_btn_need_battery,NEED BATTERY,需要电池
+ui_btn_ok,CLOSE,关闭
+ui_btn_open_profile,"VIEW SCREENSHOTS
+FROM PUBLIC","预览
+截图"
+ui_btn_repair_all,REPAIR ALL,修复所有
+ui_btn_resume,RESUME,继续
+ui_btn_revive,REVIVE,复活
+ui_btn_save,SAVE,保存
+ui_btn_save_to_profile,SHARE SCREENSHOT,分享截图
+ui_btn_switch,"SWITCH TO
+ONLINE SAVE","切换至
+在线保存"
+ui_btn_take_all,TAKE ALL,取得所有
+ui_btn_turn_on,ACTIVATE,启用
+ui_confirm_recreate,CONTINUE,继续
+ui_confirm_recreate_msg,"Are you sure you want to recreate the planet?
+All your the buildings will be lost.","确定希望重造星球吗？
+所有建筑都将丢失。"
+ui_hint_lack_resources,Not enough materials.,缺少材料。
+ui_hint_not_char_card,This slot is for character cards only.,此槽中只能放角色卡。
+ui_hint_not_enough_space,Not enough space.,缺少空间。
+ui_hint_not_fueld,This item can’t be used as fuel.,此物品不能用作燃料。
+ui_hint_not_in_this_slot,You can't place item in this slot.,你无法将物品放入这个槽中。
+ui_hint_not_ingredient,You can’t melt this item.,你无法熔化此物品。
+ui_hint_not_mob_card,This slot is for creature cards only.,此槽中只能放生物卡。
+ui_hint_only_body_armor,This slot is for chestplate only,此槽中只能放胸甲
+ui_hint_only_body_clothing,This slot is for clothes/body armor only,此槽中只能放衣物/盔甲
+ui_hint_only_head_armor,This slot is for helmets only,此槽中只能放头盔
+ui_hint_only_head_clothing,This slot is for hats/helmets only,此槽中只能放帽/头盔
+ui_hint_only_legs_armor,This slot is for leg armor only,此槽中只能放腿甲
+ui_hint_only_legs_clothing,This slot is for pants/leg armor only,此槽中只能放短裤/腿甲
+ui_hint_only_projectiles,This slot is for ammo only.,此槽中只能放弹药。
+ui_hint_required_for_repairs,You need '{0}' for repairs.,你需要‘{0}’进行修复。
+ui_hint_short_level,Item level is higher than yours.,物品需要等级高于你的等级
+ui_item_slot_armor,Armor slot,盔甲槽
+ui_item_slot_armor_desc,"Armor in this slot will change your appearance, grant bonuses and protection.",此槽中的盔甲会改变角色的外表、额外奖励及防御。
+ui_item_slot_clothing,Clothes slot,衣物槽
+ui_item_slot_clothing_desc,Armor in this slot will change your appearance only. It will not grant any bonuses or protection.,槽中的衣物仅会改变角色的外表。
+ui_item_slot_projectiles,Ammo slot,弹药槽
+ui_item_slot_projectiles_desc,Firearm ammo is stocked here.,武器弹药存放在这里。
+ui_lbl_account,GET THE ACCOUNT,获得账号
+ui_lbl_achiev_unlocked,ACHIEVEMENT UNLOCKED,成就已解锁
+ui_lbl_achievs,ACHIEVEMENTS,成就
+ui_lbl_autosaving,"Auto-saving, please wait",正在自动保存，请稍等
+ui_lbl_book_memories,THE BOOK OF MEMORIES,回忆之书
+ui_lbl_book_shadows,ANTIENT COMPUTER,远古计算机
+ui_lbl_book_traveler,BOOK OF TRAVELS,旅行之书
+ui_lbl_book_traveler_reward,"Complete all the quests to get your personal Guard, Crown and Throne!",完成所有任务，获得个人守卫、皇冠和宝座！
+ui_lbl_buff_time_minutes,{0} min,{0}分
+ui_lbl_buff_time_seconds,{0} sec,{0}秒
+ui_lbl_burner,BURNER,燃烧炉
+ui_lbl_chest,CHEST,箱子
+ui_lbl_cloud,ONLINE SAVE,在线保存
+ui_lbl_completed,Completed,已完成
+ui_lbl_craft_repair,REPAIR ITEMS,修复物品
+ui_lbl_daily_bonus,DAILY REWARDS,每日奖励
+ui_lbl_daily_bonus_message_1,Your Reward for {0} day of visiting the game!,这是你共{0}天玩游戏的奖励！
+ui_lbl_daily_bonus_message_2,Come tomorrow to get another Reward!,明天来领奖励！
+ui_lbl_daily_bonus_message_3,Please register to get more unique Rewards!,请注册获得更多独特奖励！
+ui_lbl_daily_bonus_message_4,Thanks for playing! Enjoy your new Rewards!,感谢玩游戏！这是你的奖励！
+ui_lbl_died,YOU DIED,本盘游戏结束
+ui_lbl_error,OUCH!,糟糕！
+ui_lbl_furnace,FURNANCE,熔炉
+ui_lbl_furnace_desc,Place ingredient and fuel to corresponding slots to begin the melting.,将材料和燃料放入相应的槽中开始熔化。
+ui_lbl_inventory,INVENTORY,物品栏
+ui_lbl_item_armor,ARMOR AND CLOTHES,盔甲和衣物
+ui_lbl_item_blocks,BLOCKS,砖块
+ui_lbl_item_consumables,CONSUMABLES,消耗品
+ui_lbl_item_decor,DECORATION,装饰
+ui_lbl_item_machinery,MACHINERY,机器
+ui_lbl_item_shop,SHOP,商店
+ui_lbl_item_techno_workbench,TECHNO WORKBENCH,技术工作台
+ui_lbl_item_tools,TOOLS,工具
+ui_lbl_item_weapon,WEAPON,武器
+ui_lbl_language,LANGUAGE,语言
+ui_lbl_level_up,LEVEL UP,升级
+ui_lbl_pause,PAUSE,暂停
+ui_lbl_player_ammo_slots,AMMO,弹药
+ui_lbl_player_armor_slots,ARMOR,盔甲
+ui_lbl_player_clothes_slots,CLOTHES,衣物
+ui_lbl_player_fuel_slot,FUEL,燃料
+ui_lbl_player_ingredient_slot,INGREDIENT,材料
+ui_lbl_player_level,{0},{0}
+ui_lbl_player_level_text,LEVEL,级别
+ui_lbl_quest_complete,QUEST COMPLETED,任务已完成
+ui_lbl_repair_desc,Here you can repair your equipment.,在这里你可以修复装备。
+ui_lbl_reward_message,"Your reward for quest:
+'{0}'","你获得的任务奖励：
+'{0}"
+ui_lbl_reward_message_rigistration,"Thanks for Registration and using ID.Net 
+Your reward:","感谢注册和使用ID.Net
+你的奖励："
+ui_lbl_robot_panel,ROBOT PANEL,机器人面板
+ui_lbl_saving,"Saving, please wait",正在保存，请稍等
+ui_lbl_shop_exchange,3D PRINTER 3000,3D打印机（3000型）
+ui_lbl_trap_duration,Duration (sec),时长（秒）
+ui_lbl_trap_offset,Offset (sec),重置（秒）
+ui_lbl_trap_time,Time (sec),时间（秒）
+ui_lbl_treasure_chest,TREASURE,宝箱
+ui_lbl_tutorial_item_count,{0} of {1},{0}（总计{1} ）
+ui_lbl_uncompleted,Uncompleted,未完成
+ui_lbl_warehouse,WAREHOUSE,仓库
+ui_lbl_warehouse_desc,ALL YOUR REWARDS ARE STORED HERE.,所有奖励都保存在这里。
+ui_sbook_big_spider_desc,King Mosquiton rules all insects in this world. He lives in the forgotten ruins and wants suck your blood.,莫斯奎登国王统治这个世界的所有昆虫。他住在被遗忘的废墟中，想吸干你的血。
+ui_sbook_desc_closed,[closed],[已关闭]
+ui_sbook_gargoyle_desc,It resides in abandoned bunker deep underground. Create battery and turn it on.,它居住在地下很深的被遗弃的防空洞中。制作电池来启动它。
+ui_sbook_required_level,Level {0} required,需要等级{0}
+ui_sbook_respawning,Respawn in {0} min.,{0}分钟后再生
+ui_sbook_stone_golem_desc,"You can find Imperator Finalium on one of the last flying islands. Thousands of years ago great kings lived on these islands , and now there are only the deserted ruins.",在仅存空中岛屿之一上，你可以找到费纳利姆大将军。数千年前，伟大的国王住在这些岛上，如今却成了被遗弃的荒岛。
+ui_sbook_zombie_desc,Tyrant. Mighty warrior who lives only for supreme power. All zombies fear and serve him.,暴君提蓝特。强大武士，一意当霸主。所有僵尸都服从和畏惧他。
+ui_tooltip_achievements,Achievements,成就
+ui_tooltip_already_saving,"Please wait a while
+before next saving","请稍后再
+进行下一次保存"
+ui_tooltip_authors,Credits,鸣谢
+ui_tooltip_cloud,Transfer your data to Cloud and get Rewards,将您的数据上传到云端并获得奖励。
+ui_tooltip_cloud_switch_tips,"Press 'switch to online' button
+to transfer your data to the Cloud","点击‘转到线上’按钮
+将你的数据上传到云端"
+ui_tooltip_cloud_tips,"Press 'login' button to transfer your data
+to the Cloud and get Rewards","点击‘登录’按钮
+将你的数据上传到云端并获得奖励。"
+ui_tooltip_community,Having problem? Discuss here!,遇到了问题？在这里讨论！
+ui_tooltip_create_new_planet,Create a new planet,创建一个新星球
+ui_tooltip_female,Female,女性
+ui_tooltip_fullscreen,Full screen mode,全屏模式
+ui_tooltip_highscore,High Scores,高分榜
+ui_tooltip_inventory,Inventory [{0}],物品栏
+ui_tooltip_language,"Language
+
+English","Language
+
+中文"
+ui_tooltip_male,Male,男性
+ui_tooltip_memories_book,"PART 1
+
+A LONG TIME AGO GOBLINS WERE THE OWNERS OF THIS
+PLANET. THEY CALLED IT VELIUM.
+
+GOBLINS LIVED ON THE FLYING ISLANDS IN THE HUGE
+CASTLES.
+
+THEIR TECHNOLOGIES WERE GREAT. THERE WERE A LOT OF
+UNIVERSITIES AND UNDERGROUND LABS.
+
+BUT 300 YEARS AGO EVIL IMPERATOR FINALIUM INVATED THIS
+PLANET WITH HIS STRONGEST GENERALS AND HUGE ARMY.
+
+GOBLINS WERE DEFEATED.
+
+THEIR LAST HOPE IS THE SPACE LIGHTHOUSE THAT SENDS
+THE SIGNALS FOR HELP.
+
+BUT THE HERO MUST HARRY BECAUSE IMPERATOR FINALIUM
+CALLED...","第一篇：
+
+很久很久以前，这个星球的主人是哥布林妖怪。他们将之称为伟里姆。
+
+哥布林居住在巨大的城堡空中的岛屿上。
+
+他们的科技很发达。兴办学院和位于地下的实验室。
+
+不过，300年前，费纳利姆大将军率领强将及其千军万马入侵了这个星球。
+
+哥布林战败而逃。
+
+他们最后的希望是可以发送求救信号的宇宙灯塔。
+
+但是，我们要赶紧行动，因为费纳利姆大将军已召集……"
+ui_tooltip_memories_book2,"PART 2
+
+...THE SHADOW. AND IT IS ON THE PLANET ALREADY.
+ IT HIDES AND WAITS.
+ IT IS WAITING FOR THE HERO.
+
+
+THE SHADOW DOES NOT HAVE A MATERIAL SHELL.
+IT WILL ENTER INTO THE MOST DANGEROUS
+ AND EVIL CREATURES ON THE PLANET
+ AND MAKE THEIR POWER INCREDIBLE.
+
+
+YOU MUST DEFEAT IT, IF YOU WANT TO SAVE THIS PLANET.
+BUT HOW MANY PLANETS NEED YOUR HELP?
+
+
+RECENTLY, SPACE LIGHTHOUSE RECEIVED
+ A SIGNAL FROM ANOTHER PLANET.
+THE PLANET...","第二部分
+
+...影子。这早已存在在这个星球上了。
+他们藏着、等着。
+等着英雄到来。影子没有壳体。
+他会进入最危险的地方
+星球上最邪恶的生物
+让他们获得无与伦比的力量。
+
+
+你必须打败他。如果你想拯救这个星球的话。
+但是有多少星球在等着你去拯救呢？
+
+
+最近，太空灯塔接收到了
+另一个星球的信息。
+那个星球..."
+ui_tooltip_notification1_tips,"This planet is so dangerous and this is
+your first night here. Save your progress
+online in idnet cloud forever and you can
+play from any computer then","这个星球危机四伏，这是你在星球上头一个晚上。
+在idnet云端永久保存游戏进度，
+然后可在任意电脑上进行游戏"
+ui_tooltip_notification2_tips,"Wow!
+You are level 2 now. Register to share
+screenshots of your mighty character!
+Show it to everybody.","好极了！你已经升到2级。
+注册来分享你的勇猛角色吧！
+让所有人都瞧瞧。"
+ui_tooltip_notification3_tips,"3rd level! You are a true hero of this
+planet now. You went to it for a long time.
+Register and save all your great
+progress online forever!.","达到第3级！你如今是这个星球上真正英雄。
+你已在此呆了很长时间。
+注册并将你所有上佳进度永久在线保存！"
+ui_tooltip_revive_tips,"Press 'login' to auto revive
+and get Rewards",点击‘登录’自动复活并获得奖励
+ui_tooltip_save,Save [auto-saving every 10 mins],保存（每10分钟自动保存）
+ui_tooltip_save_and_lobby,Save and quit to main menu,保存并退回主菜单
+ui_tooltip_saving_cooldown,"Please wait a few seconds
+before next saving",请稍后再进行下一次保存
+ui_tooltip_scale,Change the scale,更改比例
+ui_tooltip_screenshot,Make a screenshot [{0}],拍一幅截图[{0}]
+ui_tooltip_show_helmet,Show helmet,显示头盔
+ui_tooltip_sound,Sound,声音
+wall_brick,Brick Wall,砖墙
+wall_bronze,Bronze Wall,铜墙
+wall_designer_black,Black Wall,黑墙
+wall_designer_blue,Blue Wall,蓝墙
+wall_designer_cage,Cage Wall,笼壁
+wall_designer_green,Green Wall,绿化墙
+wall_designer_red,Red Wall,红墙
+wall_designer_white,White Wall,白墙
+wall_designer_yellow,Yellow Wall,黄墙
+wall_dirt,Dirt Wall,土墙
+wall_fence,Fence,篱笆
+wall_glass,Glass Wall,玻璃墙
+wall_glass_blue,Red Glass Wall,红玻璃墙
+wall_glass_red,Green Glass Wall,绿玻璃墙
+wall_gold,Gold Wall,金墙
+wall_metal,Metal Wall,金属墙
+wall_moss_metal_brick,Moss Metal Wall,苔金属墙
+wall_moss_stone_brick,Moss Stone Brick Wall,苔石砖墙
+wall_mystic_stone_brick,Mystic Wall,神秘之墙
+wall_obsidian,Obsidian Wall,黑曜石墙
+wall_planked,Plank Wall,木条墙
+wall_stone,Stone Wall,石墙
+wall_stone_brick,Stone Brick Wall,石砖墙
+wall_techno,Solidium Wall,超锢墙
+wall_white_brick,White Brick Wall,白砖墙
+wall_wood,Wooden Wall,木墙
+wall_wood_planks,Sheathing Plank Wall,木条护板墙
+warehouse_has_new_item,You have new item in the warehouse ->,仓库中有新物品
+welcome,Welcome,欢迎
+you_hero,You,你

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://djhntpktqtowj"]
+
+[ext_resource type="PackedScene" uid="uid://dhe0jynm2tk1m" path="res://sence/ui/item_slot_base.tscn" id="1_u4xkc"]
+[ext_resource type="Script" uid="uid://c45ehxtdx4e50" path="res://scripts/ui/item_fast_slot.gd" id="2_jthvb"]
+[ext_resource type="Texture2D" uid="uid://dee6arq8rpqhj" path="res://assets/ui/item/1484_assets.Images_PANEL_TOP_SELECTED_ITEM_CLASS.png" id="3_ptini"]
+
+[node name="ItemFastSlot" unique_id=1883724532 instance=ExtResource("1_u4xkc")]
+script = ExtResource("2_jthvb")
+
+[node name="ItemSelection" type="TextureRect" parent="." index="5" unique_id=337453532]
+visible = false
+layout_mode = 0
+offset_left = -3.0
+offset_top = -3.0
+offset_right = 34.0
+offset_bottom = 34.0
+texture = ExtResource("3_ptini")

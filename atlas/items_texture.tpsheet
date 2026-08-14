@@ -1,0 +1,7173 @@
+{
+	"textures": [
+		{
+			"image": "items_texture.png",
+			"size": {
+				"w": 607,
+				"h": 683
+			},
+			"sprites": [
+				{
+					"filename": "luminary_super_light.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 90
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gromon_super_light.png",
+					"region": {
+						"x": 0,
+						"y": 90,
+						"w": 88,
+						"h": 87
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1234.png",
+					"region": {
+						"x": 88,
+						"y": 90,
+						"w": 84,
+						"h": 79
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "luminary_light.png",
+					"region": {
+						"x": 172,
+						"y": 90,
+						"w": 73,
+						"h": 74
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1163.png",
+					"region": {
+						"x": 172,
+						"y": 164,
+						"w": 70,
+						"h": 69
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1236.png",
+					"region": {
+						"x": 0,
+						"y": 177,
+						"w": 60,
+						"h": 62
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1234.png",
+					"region": {
+						"x": 60,
+						"y": 177,
+						"w": 50,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_407.png",
+					"region": {
+						"x": 88,
+						"y": 169,
+						"w": 30,
+						"h": 7
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_476.png",
+					"region": {
+						"x": 110,
+						"y": 176,
+						"w": 30,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1055.png",
+					"region": {
+						"x": 118,
+						"y": 169,
+						"w": 6,
+						"h": 7
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1066.png",
+					"region": {
+						"x": 124,
+						"y": 169,
+						"w": 6,
+						"h": 6
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1045.png",
+					"region": {
+						"x": 130,
+						"y": 169,
+						"w": 5,
+						"h": 5
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1050.png",
+					"region": {
+						"x": 135,
+						"y": 169,
+						"w": 5,
+						"h": 5
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "gromon_light.png",
+					"region": {
+						"x": 242,
+						"y": 164,
+						"w": 58,
+						"h": 58
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1162.png",
+					"region": {
+						"x": 245,
+						"y": 0,
+						"w": 58,
+						"h": 58
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1096.png",
+					"region": {
+						"x": 90,
+						"y": 0,
+						"w": 58,
+						"h": 57
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1172.png",
+					"region": {
+						"x": 148,
+						"y": 0,
+						"w": 53,
+						"h": 53
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1070.png",
+					"region": {
+						"x": 148,
+						"y": 53,
+						"w": 56,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1047.png",
+					"region": {
+						"x": 204,
+						"y": 53,
+						"w": 36,
+						"h": 36
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1062_0.png",
+					"region": {
+						"x": 90,
+						"y": 57,
+						"w": 50,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1072.png",
+					"region": {
+						"x": 140,
+						"y": 57,
+						"w": 8,
+						"h": 29
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1068.png",
+					"region": {
+						"x": 201,
+						"y": 0,
+						"w": 43,
+						"h": 44
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_399.png",
+					"region": {
+						"x": 201,
+						"y": 44,
+						"w": 26,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_284.png",
+					"region": {
+						"x": 227,
+						"y": 44,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_452.png",
+					"region": {
+						"x": 148,
+						"y": 77,
+						"w": 32,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_296.png",
+					"region": {
+						"x": 180,
+						"y": 77,
+						"w": 20,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1207.png",
+					"region": {
+						"x": 140,
+						"y": 86,
+						"w": 3,
+						"h": 3
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1061.png",
+					"region": {
+						"x": 240,
+						"y": 52,
+						"w": 5,
+						"h": 5
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1096.png",
+					"region": {
+						"x": 245,
+						"y": 58,
+						"w": 53,
+						"h": 53
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1093.png",
+					"region": {
+						"x": 298,
+						"y": 58,
+						"w": 52,
+						"h": 52
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1067.png",
+					"region": {
+						"x": 303,
+						"y": 0,
+						"w": 50,
+						"h": 50
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1068.png",
+					"region": {
+						"x": 298,
+						"y": 110,
+						"w": 50,
+						"h": 50
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1228.png",
+					"region": {
+						"x": 245,
+						"y": 111,
+						"w": 50,
+						"h": 50
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_285.png",
+					"region": {
+						"x": 303,
+						"y": 50,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_286.png",
+					"region": {
+						"x": 319,
+						"y": 50,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_318.png",
+					"region": {
+						"x": 335,
+						"y": 50,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1056.png",
+					"region": {
+						"x": 242,
+						"y": 222,
+						"w": 49,
+						"h": 49
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1227.png",
+					"region": {
+						"x": 0,
+						"y": 239,
+						"w": 48,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1093.png",
+					"region": {
+						"x": 48,
+						"y": 239,
+						"w": 48,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1051.png",
+					"region": {
+						"x": 96,
+						"y": 237,
+						"w": 48,
+						"h": 46
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1069.png",
+					"region": {
+						"x": 140,
+						"y": 169,
+						"w": 14,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1036.png",
+					"region": {
+						"x": 140,
+						"y": 209,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1071.png",
+					"region": {
+						"x": 154,
+						"y": 169,
+						"w": 12,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_332.png",
+					"region": {
+						"x": 154,
+						"y": 201,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_447.png",
+					"region": {
+						"x": 166,
+						"y": 169,
+						"w": 6,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1051_0.png",
+					"region": {
+						"x": 144,
+						"y": 237,
+						"w": 48,
+						"h": 46
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1051_1.png",
+					"region": {
+						"x": 192,
+						"y": 233,
+						"w": 48,
+						"h": 46
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1062_1.png",
+					"region": {
+						"x": 240,
+						"y": 271,
+						"w": 50,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1228.png",
+					"region": {
+						"x": 0,
+						"y": 287,
+						"w": 39,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1066.png",
+					"region": {
+						"x": 39,
+						"y": 287,
+						"w": 40,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1057.png",
+					"region": {
+						"x": 79,
+						"y": 287,
+						"w": 38,
+						"h": 38
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1055.png",
+					"region": {
+						"x": 117,
+						"y": 287,
+						"w": 36,
+						"h": 36
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "bagpipes_pipes.png",
+					"region": {
+						"x": 153,
+						"y": 287,
+						"w": 31,
+						"h": 36
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1063.png",
+					"region": {
+						"x": 184,
+						"y": 283,
+						"w": 35,
+						"h": 35
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1065.png",
+					"region": {
+						"x": 184,
+						"y": 318,
+						"w": 35,
+						"h": 35
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1045.png",
+					"region": {
+						"x": 0,
+						"y": 329,
+						"w": 34,
+						"h": 34
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1046.png",
+					"region": {
+						"x": 0,
+						"y": 363,
+						"w": 34,
+						"h": 34
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1061.png",
+					"region": {
+						"x": 34,
+						"y": 329,
+						"w": 34,
+						"h": 34
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1054.png",
+					"region": {
+						"x": 68,
+						"y": 329,
+						"w": 33,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1060.png",
+					"region": {
+						"x": 101,
+						"y": 329,
+						"w": 33,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1193.png",
+					"region": {
+						"x": 134,
+						"y": 327,
+						"w": 33,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1199.png",
+					"region": {
+						"x": 167,
+						"y": 327,
+						"w": 16,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1091.png",
+					"region": {
+						"x": 167,
+						"y": 352,
+						"w": 12,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "bagpipes_bag.png",
+					"region": {
+						"x": 34,
+						"y": 363,
+						"w": 20,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "horn_light.png",
+					"region": {
+						"x": 54,
+						"y": 363,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1043.png",
+					"region": {
+						"x": 86,
+						"y": 363,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1044.png",
+					"region": {
+						"x": 118,
+						"y": 362,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1053.png",
+					"region": {
+						"x": 118,
+						"y": 394,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1058.png",
+					"region": {
+						"x": 0,
+						"y": 397,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1059.png",
+					"region": {
+						"x": 0,
+						"y": 429,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1064.png",
+					"region": {
+						"x": 32,
+						"y": 397,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1189.png",
+					"region": {
+						"x": 64,
+						"y": 396,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1190.png",
+					"region": {
+						"x": 64,
+						"y": 428,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1192.png",
+					"region": {
+						"x": 32,
+						"y": 429,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_1.png",
+					"region": {
+						"x": 96,
+						"y": 395,
+						"w": 22,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1118.png",
+					"region": {
+						"x": 150,
+						"y": 360,
+						"w": 12,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1089.png",
+					"region": {
+						"x": 150,
+						"y": 385,
+						"w": 10,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_0.png",
+					"region": {
+						"x": 219,
+						"y": 279,
+						"w": 21,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1047.png",
+					"region": {
+						"x": 290,
+						"y": 271,
+						"w": 31,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1062.png",
+					"region": {
+						"x": 300,
+						"y": 160,
+						"w": 49,
+						"h": 29
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1201.png",
+					"region": {
+						"x": 348,
+						"y": 110,
+						"w": 49,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1201.png",
+					"region": {
+						"x": 353,
+						"y": 0,
+						"w": 49,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_370.png",
+					"region": {
+						"x": 353,
+						"y": 22,
+						"w": 48,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_400.png",
+					"region": {
+						"x": 353,
+						"y": 47,
+						"w": 48,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1235.png",
+					"region": {
+						"x": 350,
+						"y": 71,
+						"w": 48,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1116.png",
+					"region": {
+						"x": 350,
+						"y": 91,
+						"w": 45,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1212.png",
+					"region": {
+						"x": 395,
+						"y": 91,
+						"w": 44,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1062_1.png",
+					"region": {
+						"x": 402,
+						"y": 0,
+						"w": 43,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1062.png",
+					"region": {
+						"x": 445,
+						"y": 0,
+						"w": 41,
+						"h": 29
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_464.png",
+					"region": {
+						"x": 486,
+						"y": 0,
+						"w": 41,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1062_0.png",
+					"region": {
+						"x": 527,
+						"y": 0,
+						"w": 40,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_340.png",
+					"region": {
+						"x": 567,
+						"y": 0,
+						"w": 40,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1052.png",
+					"region": {
+						"x": 567,
+						"y": 16,
+						"w": 38,
+						"h": 29
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1050.png",
+					"region": {
+						"x": 401,
+						"y": 30,
+						"w": 36,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1239.png",
+					"region": {
+						"x": 437,
+						"y": 30,
+						"w": 36,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1098.png",
+					"region": {
+						"x": 437,
+						"y": 54,
+						"w": 35,
+						"h": 31
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1057.png",
+					"region": {
+						"x": 401,
+						"y": 58,
+						"w": 30,
+						"h": 31
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1174.png",
+					"region": {
+						"x": 348,
+						"y": 132,
+						"w": 35,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_4.png",
+					"region": {
+						"x": 240,
+						"y": 301,
+						"w": 23,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_457.png",
+					"region": {
+						"x": 219,
+						"y": 311,
+						"w": 20,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_5.png",
+					"region": {
+						"x": 263,
+						"y": 301,
+						"w": 23,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1170.png",
+					"region": {
+						"x": 300,
+						"y": 189,
+						"w": 33,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1183.png",
+					"region": {
+						"x": 300,
+						"y": 216,
+						"w": 33,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1217.png",
+					"region": {
+						"x": 291,
+						"y": 222,
+						"w": 9,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1231.png",
+					"region": {
+						"x": 300,
+						"y": 240,
+						"w": 33,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1048.png",
+					"region": {
+						"x": 286,
+						"y": 303,
+						"w": 32,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_2.png",
+					"region": {
+						"x": 318,
+						"y": 303,
+						"w": 22,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_3.png",
+					"region": {
+						"x": 239,
+						"y": 333,
+						"w": 22,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_6.png",
+					"region": {
+						"x": 179,
+						"y": 353,
+						"w": 22,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1206.png",
+					"region": {
+						"x": 162,
+						"y": 377,
+						"w": 10,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1213.png",
+					"region": {
+						"x": 162,
+						"y": 402,
+						"w": 10,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_7.png",
+					"region": {
+						"x": 118,
+						"y": 426,
+						"w": 22,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_298_8.png",
+					"region": {
+						"x": 96,
+						"y": 427,
+						"w": 22,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_311.png",
+					"region": {
+						"x": 140,
+						"y": 426,
+						"w": 22,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1237.png",
+					"region": {
+						"x": 150,
+						"y": 410,
+						"w": 12,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1119.png",
+					"region": {
+						"x": 201,
+						"y": 353,
+						"w": 30,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_379.png",
+					"region": {
+						"x": 219,
+						"y": 343,
+						"w": 20,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1049.png",
+					"region": {
+						"x": 333,
+						"y": 189,
+						"w": 32,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1191.png",
+					"region": {
+						"x": 349,
+						"y": 153,
+						"w": 32,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1113.png",
+					"region": {
+						"x": 349,
+						"y": 179,
+						"w": 26,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_307.png",
+					"region": {
+						"x": 333,
+						"y": 215,
+						"w": 32,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_308.png",
+					"region": {
+						"x": 333,
+						"y": 236,
+						"w": 32,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_450.png",
+					"region": {
+						"x": 333,
+						"y": 257,
+						"w": 32,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1164.png",
+					"region": {
+						"x": 321,
+						"y": 264,
+						"w": 12,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_451.png",
+					"region": {
+						"x": 333,
+						"y": 272,
+						"w": 32,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1063.png",
+					"region": {
+						"x": 261,
+						"y": 333,
+						"w": 30,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_449.png",
+					"region": {
+						"x": 291,
+						"y": 333,
+						"w": 22,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1180.png",
+					"region": {
+						"x": 321,
+						"y": 287,
+						"w": 30,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_343.png",
+					"region": {
+						"x": 313,
+						"y": 335,
+						"w": 30,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1081.png",
+					"region": {
+						"x": 340,
+						"y": 303,
+						"w": 30,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_294.png",
+					"region": {
+						"x": 365,
+						"y": 189,
+						"w": 30,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1082.png",
+					"region": {
+						"x": 383,
+						"y": 132,
+						"w": 30,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_456.png",
+					"region": {
+						"x": 397,
+						"y": 109,
+						"w": 30,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_310.png",
+					"region": {
+						"x": 383,
+						"y": 152,
+						"w": 30,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_345.png",
+					"region": {
+						"x": 381,
+						"y": 167,
+						"w": 30,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_394.png",
+					"region": {
+						"x": 411,
+						"y": 167,
+						"w": 30,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_406.png",
+					"region": {
+						"x": 441,
+						"y": 167,
+						"w": 30,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_295.png",
+					"region": {
+						"x": 439,
+						"y": 85,
+						"w": 30,
+						"h": 12
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_398.png",
+					"region": {
+						"x": 469,
+						"y": 85,
+						"w": 30,
+						"h": 12
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1067.png",
+					"region": {
+						"x": 473,
+						"y": 29,
+						"w": 29,
+						"h": 29
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_448.png",
+					"region": {
+						"x": 502,
+						"y": 29,
+						"w": 22,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_444.png",
+					"region": {
+						"x": 524,
+						"y": 45,
+						"w": 30,
+						"h": 12
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_454.png",
+					"region": {
+						"x": 524,
+						"y": 30,
+						"w": 30,
+						"h": 12
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_346.png",
+					"region": {
+						"x": 472,
+						"y": 58,
+						"w": 29,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1225.png",
+					"region": {
+						"x": 439,
+						"y": 97,
+						"w": 29,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_288.png",
+					"region": {
+						"x": 427,
+						"y": 109,
+						"w": 12,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1203.png",
+					"region": {
+						"x": 468,
+						"y": 97,
+						"w": 29,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1200.png",
+					"region": {
+						"x": 468,
+						"y": 113,
+						"w": 28,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_466.png",
+					"region": {
+						"x": 439,
+						"y": 116,
+						"w": 22,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_416.png",
+					"region": {
+						"x": 413,
+						"y": 129,
+						"w": 20,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_380.png",
+					"region": {
+						"x": 413,
+						"y": 157,
+						"w": 20,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_453.png",
+					"region": {
+						"x": 433,
+						"y": 157,
+						"w": 20,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1200.png",
+					"region": {
+						"x": 461,
+						"y": 135,
+						"w": 28,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_291.png",
+					"region": {
+						"x": 433,
+						"y": 144,
+						"w": 26,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_290.png",
+					"region": {
+						"x": 453,
+						"y": 157,
+						"w": 16,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_362.png",
+					"region": {
+						"x": 469,
+						"y": 157,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1095.png",
+					"region": {
+						"x": 365,
+						"y": 211,
+						"w": 28,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_477.png",
+					"region": {
+						"x": 365,
+						"y": 231,
+						"w": 28,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_485.png",
+					"region": {
+						"x": 365,
+						"y": 251,
+						"w": 28,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1035.png",
+					"region": {
+						"x": 365,
+						"y": 271,
+						"w": 28,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1224.png",
+					"region": {
+						"x": 351,
+						"y": 287,
+						"w": 26,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_373.png",
+					"region": {
+						"x": 340,
+						"y": 325,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "lamp.png",
+					"region": {
+						"x": 343,
+						"y": 333,
+						"w": 20,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_2.png",
+					"region": {
+						"x": 356,
+						"y": 361,
+						"w": 27,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_409.png",
+					"region": {
+						"x": 172,
+						"y": 385,
+						"w": 18,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_5.png",
+					"region": {
+						"x": 172,
+						"y": 413,
+						"w": 27,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_467.png",
+					"region": {
+						"x": 190,
+						"y": 385,
+						"w": 27,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1207.png",
+					"region": {
+						"x": 162,
+						"y": 427,
+						"w": 10,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_6.png",
+					"region": {
+						"x": 217,
+						"y": 383,
+						"w": 26,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_312.png",
+					"region": {
+						"x": 231,
+						"y": 365,
+						"w": 26,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_408.png",
+					"region": {
+						"x": 199,
+						"y": 408,
+						"w": 14,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1186.png",
+					"region": {
+						"x": 199,
+						"y": 432,
+						"w": 18,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_8.png",
+					"region": {
+						"x": 162,
+						"y": 447,
+						"w": 23,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_0.png",
+					"region": {
+						"x": 0,
+						"y": 461,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_1.png",
+					"region": {
+						"x": 22,
+						"y": 461,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_10.png",
+					"region": {
+						"x": 44,
+						"y": 461,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_11.png",
+					"region": {
+						"x": 66,
+						"y": 460,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_12.png",
+					"region": {
+						"x": 66,
+						"y": 487,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_13.png",
+					"region": {
+						"x": 0,
+						"y": 488,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_14.png",
+					"region": {
+						"x": 0,
+						"y": 515,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_15.png",
+					"region": {
+						"x": 22,
+						"y": 488,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_4.png",
+					"region": {
+						"x": 44,
+						"y": 488,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_9.png",
+					"region": {
+						"x": 88,
+						"y": 460,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_3.png",
+					"region": {
+						"x": 110,
+						"y": 460,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_anim_299_7.png",
+					"region": {
+						"x": 131,
+						"y": 460,
+						"w": 21,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_347.png",
+					"region": {
+						"x": 152,
+						"y": 460,
+						"w": 10,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_348.png",
+					"region": {
+						"x": 152,
+						"y": 478,
+						"w": 10,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "experience_boss.png",
+					"region": {
+						"x": 88,
+						"y": 487,
+						"w": 26,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1110.png",
+					"region": {
+						"x": 88,
+						"y": 513,
+						"w": 26,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1238.png",
+					"region": {
+						"x": 88,
+						"y": 539,
+						"w": 26,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_304.png",
+					"region": {
+						"x": 88,
+						"y": 565,
+						"w": 26,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_305.png",
+					"region": {
+						"x": 0,
+						"y": 542,
+						"w": 26,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1080.png",
+					"region": {
+						"x": 22,
+						"y": 515,
+						"w": 27,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_306.png",
+					"region": {
+						"x": 0,
+						"y": 568,
+						"w": 26,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1173.png",
+					"region": {
+						"x": 26,
+						"y": 537,
+						"w": 22,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1108.png",
+					"region": {
+						"x": 26,
+						"y": 563,
+						"w": 25,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1079.png",
+					"region": {
+						"x": 48,
+						"y": 537,
+						"w": 27,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1077.png",
+					"region": {
+						"x": 66,
+						"y": 514,
+						"w": 22,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1088.png",
+					"region": {
+						"x": 49,
+						"y": 515,
+						"w": 16,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1109.png",
+					"region": {
+						"x": 26,
+						"y": 588,
+						"w": 25,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1117.png",
+					"region": {
+						"x": 0,
+						"y": 594,
+						"w": 25,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_338.png",
+					"region": {
+						"x": 51,
+						"y": 557,
+						"w": 25,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_401.png",
+					"region": {
+						"x": 75,
+						"y": 537,
+						"w": 12,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1076.png",
+					"region": {
+						"x": 51,
+						"y": 582,
+						"w": 23,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_397.png",
+					"region": {
+						"x": 74,
+						"y": 582,
+						"w": 14,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_446.png",
+					"region": {
+						"x": 76,
+						"y": 557,
+						"w": 12,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1097.png",
+					"region": {
+						"x": 114,
+						"y": 487,
+						"w": 23,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1041.png",
+					"region": {
+						"x": 137,
+						"y": 487,
+						"w": 15,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_418.png",
+					"region": {
+						"x": 185,
+						"y": 440,
+						"w": 14,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1209.png",
+					"region": {
+						"x": 377,
+						"y": 287,
+						"w": 27,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1226.png",
+					"region": {
+						"x": 395,
+						"y": 182,
+						"w": 26,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1221.png",
+					"region": {
+						"x": 395,
+						"y": 204,
+						"w": 26,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_417.png",
+					"region": {
+						"x": 393,
+						"y": 224,
+						"w": 26,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1114.png",
+					"region": {
+						"x": 393,
+						"y": 244,
+						"w": 25,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1184.png",
+					"region": {
+						"x": 393,
+						"y": 265,
+						"w": 25,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1169.png",
+					"region": {
+						"x": 243,
+						"y": 379,
+						"w": 23,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1204.png",
+					"region": {
+						"x": 261,
+						"y": 363,
+						"w": 23,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_355.png",
+					"region": {
+						"x": 284,
+						"y": 363,
+						"w": 23,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_356.png",
+					"region": {
+						"x": 307,
+						"y": 363,
+						"w": 23,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1038.png",
+					"region": {
+						"x": 266,
+						"y": 379,
+						"w": 19,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1039.png",
+					"region": {
+						"x": 285,
+						"y": 377,
+						"w": 19,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1040.png",
+					"region": {
+						"x": 304,
+						"y": 377,
+						"w": 19,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_463.png",
+					"region": {
+						"x": 323,
+						"y": 377,
+						"w": 24,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_24.png",
+					"region": {
+						"x": 343,
+						"y": 361,
+						"w": 13,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1205.png",
+					"region": {
+						"x": 330,
+						"y": 363,
+						"w": 13,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1222.png",
+					"region": {
+						"x": 370,
+						"y": 307,
+						"w": 25,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1178.png",
+					"region": {
+						"x": 370,
+						"y": 328,
+						"w": 25,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_282.png",
+					"region": {
+						"x": 363,
+						"y": 348,
+						"w": 16,
+						"h": 11
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_293.png",
+					"region": {
+						"x": 379,
+						"y": 348,
+						"w": 16,
+						"h": 11
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1230.png",
+					"region": {
+						"x": 383,
+						"y": 359,
+						"w": 23,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1181.png",
+					"region": {
+						"x": 404,
+						"y": 286,
+						"w": 25,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1197.png",
+					"region": {
+						"x": 421,
+						"y": 182,
+						"w": 25,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1125.png",
+					"region": {
+						"x": 421,
+						"y": 202,
+						"w": 25,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1229.png",
+					"region": {
+						"x": 421,
+						"y": 221,
+						"w": 24,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_333.png",
+					"region": {
+						"x": 445,
+						"y": 221,
+						"w": 24,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_475.png",
+					"region": {
+						"x": 469,
+						"y": 221,
+						"w": 23,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "experience_mob.png",
+					"region": {
+						"x": 489,
+						"y": 135,
+						"w": 22,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1037.png",
+					"region": {
+						"x": 502,
+						"y": 57,
+						"w": 22,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_371.png",
+					"region": {
+						"x": 524,
+						"y": 57,
+						"w": 22,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1073.png",
+					"region": {
+						"x": 501,
+						"y": 79,
+						"w": 22,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1099.png",
+					"region": {
+						"x": 501,
+						"y": 100,
+						"w": 22,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1177.png",
+					"region": {
+						"x": 497,
+						"y": 119,
+						"w": 22,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1094.png",
+					"region": {
+						"x": 519,
+						"y": 119,
+						"w": 22,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_292.png",
+					"region": {
+						"x": 541,
+						"y": 119,
+						"w": 22,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_465.png",
+					"region": {
+						"x": 554,
+						"y": 30,
+						"w": 12,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_349.png",
+					"region": {
+						"x": 554,
+						"y": 50,
+						"w": 10,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1240.png",
+					"region": {
+						"x": 564,
+						"y": 50,
+						"w": 22,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1078.png",
+					"region": {
+						"x": 546,
+						"y": 68,
+						"w": 22,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1074.png",
+					"region": {
+						"x": 523,
+						"y": 79,
+						"w": 21,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_396.png",
+					"region": {
+						"x": 544,
+						"y": 85,
+						"w": 22,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1085.png",
+					"region": {
+						"x": 544,
+						"y": 99,
+						"w": 21,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_391.png",
+					"region": {
+						"x": 523,
+						"y": 102,
+						"w": 20,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1075.png",
+					"region": {
+						"x": 485,
+						"y": 157,
+						"w": 21,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_471.png",
+					"region": {
+						"x": 471,
+						"y": 165,
+						"w": 14,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_470.png",
+					"region": {
+						"x": 446,
+						"y": 182,
+						"w": 18,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1196.png",
+					"region": {
+						"x": 485,
+						"y": 180,
+						"w": 21,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1214.png",
+					"region": {
+						"x": 464,
+						"y": 185,
+						"w": 16,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_420.png",
+					"region": {
+						"x": 446,
+						"y": 205,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1171.png",
+					"region": {
+						"x": 480,
+						"y": 202,
+						"w": 21,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1202.png",
+					"region": {
+						"x": 464,
+						"y": 208,
+						"w": 12,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1208.png",
+					"region": {
+						"x": 419,
+						"y": 242,
+						"w": 21,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1233.png",
+					"region": {
+						"x": 440,
+						"y": 242,
+						"w": 21,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1086.png",
+					"region": {
+						"x": 418,
+						"y": 263,
+						"w": 21,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1087.png",
+					"region": {
+						"x": 404,
+						"y": 306,
+						"w": 21,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1176.png",
+					"region": {
+						"x": 425,
+						"y": 306,
+						"w": 21,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1210.png",
+					"region": {
+						"x": 439,
+						"y": 263,
+						"w": 21,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1232.png",
+					"region": {
+						"x": 439,
+						"y": 282,
+						"w": 21,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_354.png",
+					"region": {
+						"x": 429,
+						"y": 283,
+						"w": 10,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_321.png",
+					"region": {
+						"x": 395,
+						"y": 326,
+						"w": 20,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_419.png",
+					"region": {
+						"x": 395,
+						"y": 347,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1168.png",
+					"region": {
+						"x": 383,
+						"y": 383,
+						"w": 20,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1214.png",
+					"region": {
+						"x": 285,
+						"y": 402,
+						"w": 16,
+						"h": 23
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_395.png",
+					"region": {
+						"x": 213,
+						"y": 410,
+						"w": 20,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1090.png",
+					"region": {
+						"x": 217,
+						"y": 430,
+						"w": 16,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1092.png",
+					"region": {
+						"x": 233,
+						"y": 410,
+						"w": 16,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1042.png",
+					"region": {
+						"x": 249,
+						"y": 410,
+						"w": 15,
+						"h": 22
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1052.png",
+					"region": {
+						"x": 264,
+						"y": 404,
+						"w": 18,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1168.png",
+					"region": {
+						"x": 301,
+						"y": 402,
+						"w": 20,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_469.png",
+					"region": {
+						"x": 321,
+						"y": 402,
+						"w": 18,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_309.png",
+					"region": {
+						"x": 339,
+						"y": 401,
+						"w": 15,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_460.png",
+					"region": {
+						"x": 347,
+						"y": 388,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_344.png",
+					"region": {
+						"x": 354,
+						"y": 401,
+						"w": 15,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_461.png",
+					"region": {
+						"x": 363,
+						"y": 388,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_472.png",
+					"region": {
+						"x": 369,
+						"y": 396,
+						"w": 14,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1084.png",
+					"region": {
+						"x": 383,
+						"y": 403,
+						"w": 20,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_351.png",
+					"region": {
+						"x": 339,
+						"y": 421,
+						"w": 15,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_405.png",
+					"region": {
+						"x": 233,
+						"y": 432,
+						"w": 15,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_445.png",
+					"region": {
+						"x": 248,
+						"y": 432,
+						"w": 15,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1198.png",
+					"region": {
+						"x": 263,
+						"y": 432,
+						"w": 20,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1216.png",
+					"region": {
+						"x": 283,
+						"y": 432,
+						"w": 20,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_462.png",
+					"region": {
+						"x": 301,
+						"y": 422,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_473.png",
+					"region": {
+						"x": 317,
+						"y": 422,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_455.png",
+					"region": {
+						"x": 303,
+						"y": 430,
+						"w": 18,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1027.png",
+					"region": {
+						"x": 321,
+						"y": 430,
+						"w": 17,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1027.png",
+					"region": {
+						"x": 354,
+						"y": 421,
+						"w": 17,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_358.png",
+					"region": {
+						"x": 371,
+						"y": 421,
+						"w": 10,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "candle_fire.png",
+					"region": {
+						"x": 403,
+						"y": 383,
+						"w": 15,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1215.png",
+					"region": {
+						"x": 415,
+						"y": 326,
+						"w": 20,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_334.png",
+					"region": {
+						"x": 415,
+						"y": 344,
+						"w": 20,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1083.png",
+					"region": {
+						"x": 406,
+						"y": 359,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1115.png",
+					"region": {
+						"x": 403,
+						"y": 402,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1126.png",
+					"region": {
+						"x": 418,
+						"y": 377,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1175.png",
+					"region": {
+						"x": 435,
+						"y": 326,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1179.png",
+					"region": {
+						"x": 446,
+						"y": 301,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1182.png",
+					"region": {
+						"x": 461,
+						"y": 241,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1185.png",
+					"region": {
+						"x": 461,
+						"y": 259,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1223.png",
+					"region": {
+						"x": 460,
+						"y": 277,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1241.png",
+					"region": {
+						"x": 435,
+						"y": 344,
+						"w": 19,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_359.png",
+					"region": {
+						"x": 425,
+						"y": 359,
+						"w": 10,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1101.png",
+					"region": {
+						"x": 435,
+						"y": 362,
+						"w": 18,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1029.png",
+					"region": {
+						"x": 403,
+						"y": 420,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1030.png",
+					"region": {
+						"x": 381,
+						"y": 422,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_360.png",
+					"region": {
+						"x": 371,
+						"y": 439,
+						"w": 10,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1031.png",
+					"region": {
+						"x": 199,
+						"y": 455,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1103.png",
+					"region": {
+						"x": 185,
+						"y": 462,
+						"w": 14,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1102.png",
+					"region": {
+						"x": 162,
+						"y": 474,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1121.png",
+					"region": {
+						"x": 217,
+						"y": 452,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1195.png",
+					"region": {
+						"x": 235,
+						"y": 452,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_297.png",
+					"region": {
+						"x": 253,
+						"y": 452,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_342.png",
+					"region": {
+						"x": 271,
+						"y": 451,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_350.png",
+					"region": {
+						"x": 271,
+						"y": 469,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_386.png",
+					"region": {
+						"x": 180,
+						"y": 480,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_387.png",
+					"region": {
+						"x": 180,
+						"y": 498,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_388.png",
+					"region": {
+						"x": 114,
+						"y": 512,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_389.png",
+					"region": {
+						"x": 114,
+						"y": 530,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_390.png",
+					"region": {
+						"x": 132,
+						"y": 512,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_402.png",
+					"region": {
+						"x": 150,
+						"y": 512,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1051_0.png",
+					"region": {
+						"x": 162,
+						"y": 492,
+						"w": 16,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_323.png",
+					"region": {
+						"x": 152,
+						"y": 496,
+						"w": 10,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_357.png",
+					"region": {
+						"x": 168,
+						"y": 510,
+						"w": 12,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1051_1.png",
+					"region": {
+						"x": 198,
+						"y": 480,
+						"w": 16,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1123.png",
+					"region": {
+						"x": 214,
+						"y": 480,
+						"w": 17,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_486.png",
+					"region": {
+						"x": 217,
+						"y": 470,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_415.png",
+					"region": {
+						"x": 231,
+						"y": 478,
+						"w": 14,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_487.png",
+					"region": {
+						"x": 233,
+						"y": 470,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_488.png",
+					"region": {
+						"x": 249,
+						"y": 470,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_421.png",
+					"region": {
+						"x": 245,
+						"y": 478,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_423.png",
+					"region": {
+						"x": 289,
+						"y": 451,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_424.png",
+					"region": {
+						"x": 307,
+						"y": 451,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_425.png",
+					"region": {
+						"x": 325,
+						"y": 449,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_489.png",
+					"region": {
+						"x": 338,
+						"y": 441,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_426.png",
+					"region": {
+						"x": 343,
+						"y": 449,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_490.png",
+					"region": {
+						"x": 354,
+						"y": 440,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_299.png",
+					"region": {
+						"x": 361,
+						"y": 448,
+						"w": 10,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_427.png",
+					"region": {
+						"x": 421,
+						"y": 420,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_428.png",
+					"region": {
+						"x": 437,
+						"y": 377,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_429.png",
+					"region": {
+						"x": 454,
+						"y": 319,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_430.png",
+					"region": {
+						"x": 465,
+						"y": 295,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_431.png",
+					"region": {
+						"x": 480,
+						"y": 235,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_491.png",
+					"region": {
+						"x": 492,
+						"y": 221,
+						"w": 16,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_432.png",
+					"region": {
+						"x": 506,
+						"y": 157,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_433.png",
+					"region": {
+						"x": 519,
+						"y": 133,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_434.png",
+					"region": {
+						"x": 537,
+						"y": 133,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_435.png",
+					"region": {
+						"x": 506,
+						"y": 173,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_436.png",
+					"region": {
+						"x": 506,
+						"y": 189,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_437.png",
+					"region": {
+						"x": 501,
+						"y": 205,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_438.png",
+					"region": {
+						"x": 480,
+						"y": 251,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_439.png",
+					"region": {
+						"x": 480,
+						"y": 267,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_339.png",
+					"region": {
+						"x": 479,
+						"y": 283,
+						"w": 10,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_440.png",
+					"region": {
+						"x": 454,
+						"y": 335,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_441.png",
+					"region": {
+						"x": 454,
+						"y": 351,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_442.png",
+					"region": {
+						"x": 437,
+						"y": 393,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1211.png",
+					"region": {
+						"x": 422,
+						"y": 395,
+						"w": 14,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_468.png",
+					"region": {
+						"x": 421,
+						"y": 436,
+						"w": 18,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_10.png",
+					"region": {
+						"x": 381,
+						"y": 440,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1033.png",
+					"region": {
+						"x": 397,
+						"y": 440,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1034.png",
+					"region": {
+						"x": 413,
+						"y": 452,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_11.png",
+					"region": {
+						"x": 289,
+						"y": 467,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1100.png",
+					"region": {
+						"x": 305,
+						"y": 467,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1104.png",
+					"region": {
+						"x": 321,
+						"y": 467,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1105.png",
+					"region": {
+						"x": 337,
+						"y": 465,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1106.png",
+					"region": {
+						"x": 337,
+						"y": 481,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1107.png",
+					"region": {
+						"x": 231,
+						"y": 495,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1111.png",
+					"region": {
+						"x": 198,
+						"y": 498,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1120.png",
+					"region": {
+						"x": 214,
+						"y": 497,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1122.png",
+					"region": {
+						"x": 247,
+						"y": 494,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1124.png",
+					"region": {
+						"x": 263,
+						"y": 487,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1166.png",
+					"region": {
+						"x": 263,
+						"y": 503,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1167.png",
+					"region": {
+						"x": 180,
+						"y": 516,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1188.png",
+					"region": {
+						"x": 180,
+						"y": 532,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_12.png",
+					"region": {
+						"x": 132,
+						"y": 530,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_13.png",
+					"region": {
+						"x": 132,
+						"y": 546,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_14.png",
+					"region": {
+						"x": 114,
+						"y": 548,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_15.png",
+					"region": {
+						"x": 148,
+						"y": 530,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_16.png",
+					"region": {
+						"x": 148,
+						"y": 546,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_17.png",
+					"region": {
+						"x": 164,
+						"y": 530,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_18.png",
+					"region": {
+						"x": 164,
+						"y": 546,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_19.png",
+					"region": {
+						"x": 196,
+						"y": 516,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_20.png",
+					"region": {
+						"x": 212,
+						"y": 516,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_21.png",
+					"region": {
+						"x": 228,
+						"y": 513,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_23.png",
+					"region": {
+						"x": 228,
+						"y": 529,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_25.png",
+					"region": {
+						"x": 196,
+						"y": 532,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_258.png",
+					"region": {
+						"x": 212,
+						"y": 532,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_259.png",
+					"region": {
+						"x": 244,
+						"y": 511,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_26.png",
+					"region": {
+						"x": 244,
+						"y": 527,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_265.png",
+					"region": {
+						"x": 279,
+						"y": 487,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_266.png",
+					"region": {
+						"x": 295,
+						"y": 487,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_267.png",
+					"region": {
+						"x": 311,
+						"y": 483,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_268.png",
+					"region": {
+						"x": 311,
+						"y": 499,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_269.png",
+					"region": {
+						"x": 279,
+						"y": 503,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_27.png",
+					"region": {
+						"x": 295,
+						"y": 503,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_271.png",
+					"region": {
+						"x": 353,
+						"y": 465,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_272.png",
+					"region": {
+						"x": 369,
+						"y": 465,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_273.png",
+					"region": {
+						"x": 385,
+						"y": 465,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1219.png",
+					"region": {
+						"x": 401,
+						"y": 456,
+						"w": 11,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1220.png",
+					"region": {
+						"x": 401,
+						"y": 472,
+						"w": 11,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_28.png",
+					"region": {
+						"x": 353,
+						"y": 481,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_281.png",
+					"region": {
+						"x": 369,
+						"y": 481,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_283.png",
+					"region": {
+						"x": 385,
+						"y": 481,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_287.png",
+					"region": {
+						"x": 429,
+						"y": 452,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_289.png",
+					"region": {
+						"x": 439,
+						"y": 409,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_29.png",
+					"region": {
+						"x": 439,
+						"y": 425,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_30.png",
+					"region": {
+						"x": 445,
+						"y": 441,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_300.png",
+					"region": {
+						"x": 455,
+						"y": 367,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_301.png",
+					"region": {
+						"x": 455,
+						"y": 383,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_302.png",
+					"region": {
+						"x": 455,
+						"y": 399,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_303.png",
+					"region": {
+						"x": 455,
+						"y": 415,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_313.png",
+					"region": {
+						"x": 445,
+						"y": 457,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_314.png",
+					"region": {
+						"x": 412,
+						"y": 468,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_315.png",
+					"region": {
+						"x": 412,
+						"y": 484,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_316.png",
+					"region": {
+						"x": 412,
+						"y": 500,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_317.png",
+					"region": {
+						"x": 412,
+						"y": 516,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_320.png",
+					"region": {
+						"x": 412,
+						"y": 532,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_322.png",
+					"region": {
+						"x": 228,
+						"y": 545,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_324.png",
+					"region": {
+						"x": 180,
+						"y": 548,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_325.png",
+					"region": {
+						"x": 130,
+						"y": 562,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_329.png",
+					"region": {
+						"x": 130,
+						"y": 578,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_331.png",
+					"region": {
+						"x": 130,
+						"y": 594,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_335.png",
+					"region": {
+						"x": 130,
+						"y": 610,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_337.png",
+					"region": {
+						"x": 130,
+						"y": 626,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_352.png",
+					"region": {
+						"x": 0,
+						"y": 619,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_353.png",
+					"region": {
+						"x": 0,
+						"y": 635,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_361.png",
+					"region": {
+						"x": 16,
+						"y": 619,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_363.png",
+					"region": {
+						"x": 16,
+						"y": 635,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_372.png",
+					"region": {
+						"x": 32,
+						"y": 613,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_374.png",
+					"region": {
+						"x": 32,
+						"y": 629,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_375.png",
+					"region": {
+						"x": 48,
+						"y": 613,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_376.png",
+					"region": {
+						"x": 48,
+						"y": 629,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_377.png",
+					"region": {
+						"x": 64,
+						"y": 607,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_378.png",
+					"region": {
+						"x": 64,
+						"y": 623,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_381.png",
+					"region": {
+						"x": 64,
+						"y": 639,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_382.png",
+					"region": {
+						"x": 0,
+						"y": 651,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_383.png",
+					"region": {
+						"x": 16,
+						"y": 651,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_384.png",
+					"region": {
+						"x": 32,
+						"y": 645,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_4.png",
+					"region": {
+						"x": 48,
+						"y": 645,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_422.png",
+					"region": {
+						"x": 80,
+						"y": 604,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_458.png",
+					"region": {
+						"x": 88,
+						"y": 591,
+						"w": 11,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_443.png",
+					"region": {
+						"x": 80,
+						"y": 620,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_459.png",
+					"region": {
+						"x": 80,
+						"y": 636,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_479.png",
+					"region": {
+						"x": 96,
+						"y": 604,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_480.png",
+					"region": {
+						"x": 96,
+						"y": 620,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_481.png",
+					"region": {
+						"x": 96,
+						"y": 636,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_482.png",
+					"region": {
+						"x": 112,
+						"y": 591,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_483.png",
+					"region": {
+						"x": 114,
+						"y": 564,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_484.png",
+					"region": {
+						"x": 112,
+						"y": 607,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_5.png",
+					"region": {
+						"x": 112,
+						"y": 623,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_6.png",
+					"region": {
+						"x": 112,
+						"y": 639,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_7.png",
+					"region": {
+						"x": 80,
+						"y": 652,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_8.png",
+					"region": {
+						"x": 0,
+						"y": 667,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_9.png",
+					"region": {
+						"x": 16,
+						"y": 667,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_414.png",
+					"region": {
+						"x": 32,
+						"y": 661,
+						"w": 14,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_478.png",
+					"region": {
+						"x": 46,
+						"y": 661,
+						"w": 14,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_276.png",
+					"region": {
+						"x": 60,
+						"y": 661,
+						"w": 13,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_280.png",
+					"region": {
+						"x": 96,
+						"y": 652,
+						"w": 13,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_474.png",
+					"region": {
+						"x": 146,
+						"y": 562,
+						"w": 13,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_275.png",
+					"region": {
+						"x": 159,
+						"y": 562,
+						"w": 11,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_298.png",
+					"region": {
+						"x": 196,
+						"y": 548,
+						"w": 11,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_22.png",
+					"region": {
+						"x": 207,
+						"y": 548,
+						"w": 16,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1024.png",
+					"region": {
+						"x": 244,
+						"y": 543,
+						"w": 15,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1025.png",
+					"region": {
+						"x": 259,
+						"y": 543,
+						"w": 15,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1026.png",
+					"region": {
+						"x": 260,
+						"y": 519,
+						"w": 15,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1028.png",
+					"region": {
+						"x": 274,
+						"y": 534,
+						"w": 15,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1032.png",
+					"region": {
+						"x": 275,
+						"y": 519,
+						"w": 15,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1194.png",
+					"region": {
+						"x": 290,
+						"y": 519,
+						"w": 15,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_278.png",
+					"region": {
+						"x": 289,
+						"y": 534,
+						"w": 13,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_1218.png",
+					"region": {
+						"x": 302,
+						"y": 534,
+						"w": 14,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "item_light_1205.png",
+					"region": {
+						"x": 311,
+						"y": 515,
+						"w": 13,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"format": "RGBA8888",
+	}
+}

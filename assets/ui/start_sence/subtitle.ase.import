@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://hq2go0vpheb8"
+path="res://.godot/imported/subtitle.ase-bdd5d0846136bea6bc07b7067410dd22.res"
+
+[deps]
+
+source_file="res://assets/ui/start_sence/subtitle.ase"
+dest_files=["res://.godot/imported/subtitle.ase-bdd5d0846136bea6bc07b7067410dd22.res"]
+
+[params]
+

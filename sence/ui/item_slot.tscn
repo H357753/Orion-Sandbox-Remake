@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://csihk7eyw8utt"]
+
+[ext_resource type="Script" uid="uid://ci27brexkcfdm" path="res://scripts/ui/item_slot.gd" id="1_372c4"]
+[ext_resource type="PackedScene" uid="uid://dhe0jynm2tk1m" path="res://sence/ui/item_slot_base.tscn" id="1_djb7i"]
+
+[node name="ItemSlot" unique_id=1883724532 instance=ExtResource("1_djb7i")]
+script = ExtResource("1_372c4")
