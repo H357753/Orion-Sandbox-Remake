@@ -11,51 +11,46 @@ const CAMERA = preload("uid://bm3byjlyocjfa")
 @onready var animation_component: Node = $AnimationComponent
 @onready var movement_component: MovementComponent = $MovementComponent
 @onready var inventory_component: InventoryComponent = $InventoryComponent
-@onready var player_sync_state: Node = $PlayerSyncState
+@onready var sync_state: Node = $SyncState
+@onready var interaction_component: InteractionComponent = $InteractionComponent
+@onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
+var world:World
 
-#输入
+## 输入
 var dir: float
 var up: bool = false
 var down: bool = false
 
-#跳跃逻辑
+## 跳跃逻辑
 const jump_power: float = 742.86912 # 372（像素/秒）6.2 * 60
 var _jump_limit: bool = false
 var _jumping: bool = false
 
-#状态机
+## 状态机
 @onready var state_chart: StateChart = $StateChart
 @onready var idle: AtomicState = $StateChart/Root/Motion/Idle
 @onready var move: AtomicState = $StateChart/Root/Motion/Move
 @onready var jump: AtomicState = $StateChart/Root/Motion/Jump
 @onready var fall: AtomicState = $StateChart/Root/Motion/Fall
 
-#同步
+## 同步
 var _last_sync_state: String = "idle_entered"
 
-#func _ready():
-	#if not is_multiplayer_authority():
-		#return
-	#position = Vector2(790.0, 492.0)
-	###相机跟随
-	#var camera = CAMERA.instantiate()
-	#self.add_child(camera)
-	###状态机初始化
-	#idle.state_physics_processing.connect(_on_idle_state_physics_processing)
-	#move.state_physics_processing.connect(_on_move_state_physics_processing)
-	#jump.state_entered.connect(_on_jump_state_entered)
-	#jump.state_physics_processing.connect(_on_jump_state_physics_processing)
-	#fall.state_physics_processing.connect(_on_fall_state_physics_processing)
-	#fall.state_exited.connect(_on_fall_state_exited)
+## 选中物品
+var selected_item_index: int = 0
+func set_selected_item_index(i:int) -> void:
+	selected_item_index = i
 
-
+##初始化
 func _ready():
 	if is_multiplayer_authority():
 		initialize_local()
 		get_parent().set_local_player(self)
+		world = get_parent().get_world()
+
 
 func initialize_local():
-	position = Vector2(790,492)
+	position = Vector2(932.0,502.0)
 	var camera = CAMERA.instantiate()
 	add_child(camera)
 	idle.state_physics_processing.connect(_on_idle_state_physics_processing)
@@ -65,26 +60,36 @@ func initialize_local():
 	fall.state_physics_processing.connect(_on_fall_state_physics_processing)
 	fall.state_exited.connect(_on_fall_state_exited)
 
+
+## 输入
 @warning_ignore("unused_parameter")
 func _physics_process(delta: float) -> void:
 	if not is_multiplayer_authority():
-		velocity = player_sync_state.velocity
-		if player_sync_state.motion_state != _last_sync_state:
-			state_chart.send_event(player_sync_state.motion_state)
-			_last_sync_state = player_sync_state.motion_state
+		velocity = sync_state.velocity
+		if sync_state.motion_state != _last_sync_state:
+			state_chart.send_event(sync_state.motion_state)
+			_last_sync_state = sync_state.motion_state
 		return
-	player_sync_state.velocity = self.velocity
-	
+	sync_state.velocity = self.velocity
+
 	dir = Input.get_axis("left", "right")
 	up = Input.is_action_pressed("up")
 	down = Input.is_action_pressed("down")
-	#if movement_component.is_jumping or movement_component.is_falling:
-	#state_chart.send_event("fall_entered")
-	#return
-	#if movement_component.is_moving:
-	#state_chart.send_event("move_entered")
-	#return
-	#state_chart.send_event("idle_entered")
+	
+
+func _process(delta: float) -> void:
+	if not is_multiplayer_authority():
+		animation_component.set_direcation(sync_state.flip)
+		return
+	if Input.is_action_just_pressed("mouse_left_interaction"):
+		var item = inventory_component.get_item(selected_item_index)
+		interaction_component.primary_use(world,item,self)
+	if not is_zero_approx(dir):
+		sync_state.flip = false if dir >= 0 else true
+	animation_component.set_direction(sync_state.flip)
+
+func get_collision_rect() -> CollisionShape2D:
+	return collision_shape_2d
 
 
 ## 状态机

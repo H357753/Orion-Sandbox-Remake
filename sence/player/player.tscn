@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://cvp25ed7xclgf"]
 
 [ext_resource type="Script" uid="uid://cp78skhhuggfr" path="res://scripts/player/player.gd" id="1_p83wy"]
-[ext_resource type="SpriteFrames" uid="uid://bmfckicvntkif" path="res://assets/player/body.res" id="2_g4jq6"]
-[ext_resource type="SpriteFrames" uid="uid://re7u3kofxf5o" path="res://assets/player/head.res" id="3_yj7se"]
-[ext_resource type="SpriteFrames" uid="uid://4crktty8uakk" path="res://assets/player/legs.res" id="4_uyddv"]
-[ext_resource type="SpriteFrames" uid="uid://cl64p5jom5fsv" path="res://assets/player/hand.res" id="5_8clcj"]
+[ext_resource type="SpriteFrames" uid="uid://cgsdj3d0n6v5i" path="res://assets/player/body.res" id="2_g4jq6"]
+[ext_resource type="SpriteFrames" uid="uid://rvv5fgfcu803" path="res://assets/player/head.res" id="3_yj7se"]
+[ext_resource type="SpriteFrames" uid="uid://d2h5i45btvhso" path="res://assets/player/legs.res" id="4_uyddv"]
+[ext_resource type="SpriteFrames" uid="uid://d8rnjlt3r0pf" path="res://assets/player/hand.res" id="5_8clcj"]
 [ext_resource type="Script" uid="uid://btu0y563qf1j8" path="res://scripts/player/animation_component.gd" id="6_kcr71"]
 [ext_resource type="Script" uid="uid://dlbncjui73cdt" path="res://scripts/components/movement_component.gd" id="7_p83wy"]
 [ext_resource type="Script" uid="uid://rvk6oipg3aao" path="res://scripts/components/inventory_component.gd" id="8_uyddv"]
@@ -12,8 +12,9 @@
 [ext_resource type="Script" uid="uid://couw105c3bde4" path="res://addons/godot_state_charts/state_chart.gd" id="9_fmymq"]
 [ext_resource type="Script" uid="uid://b8wa6384teylb" path="res://scripts/items/inventory_base.gd" id="9_m6e3w"]
 [ext_resource type="Script" uid="uid://c1vp0ojjvaby1" path="res://addons/godot_state_charts/parallel_state.gd" id="10_3k16c"]
-[ext_resource type="Script" uid="uid://b2v0l2m0pq2yr" path="res://scripts/player/player_sync_state.gd" id="11_2ytk8"]
+[ext_resource type="Script" uid="uid://b2v0l2m0pq2yr" path="res://scripts/player/sync_state.gd" id="11_2ytk8"]
 [ext_resource type="Script" uid="uid://jk2jm1g6q853" path="res://addons/godot_state_charts/compound_state.gd" id="11_wu31s"]
+[ext_resource type="Script" uid="uid://bg4hefhoubbyh" path="res://scripts/player/interaction_component.gd" id="12_iwwva"]
 [ext_resource type="Script" uid="uid://cytafq8i1y8qm" path="res://addons/godot_state_charts/atomic_state.gd" id="12_qyp0h"]
 [ext_resource type="Script" uid="uid://cf1nsco3w0mf6" path="res://addons/godot_state_charts/transition.gd" id="13_b8h5p"]
 [ext_resource type="PackedScene" uid="uid://bcwkugn6v3oy7" path="res://addons/godot_state_charts/utilities/state_chart_debugger.tscn" id="15_g4jq6"]
@@ -27,29 +28,29 @@ slots = Array[ExtResource("9_8clcj")]([null, null, null, null, null, null, null,
 metadata/_custom_type_script = "uid://b8wa6384teylb"
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_qjkh3"]
-properties/0/path = NodePath("Graphic:scale:x")
+properties/0/path = NodePath(".:position")
 properties/0/spawn = true
 properties/0/replication_mode = 2
-properties/1/path = NodePath(".:position")
+properties/1/path = NodePath("SyncState:motion_state")
 properties/1/spawn = true
 properties/1/replication_mode = 2
-properties/2/path = NodePath("PlayerSyncState:motion_state")
+properties/2/path = NodePath("SyncState:velocity")
 properties/2/spawn = true
-properties/2/replication_mode = 1
-properties/3/path = NodePath("PlayerSyncState:velocity")
+properties/2/replication_mode = 2
+properties/3/path = NodePath("SyncState:flip")
 properties/3/spawn = true
-properties/3/replication_mode = 1
+properties/3/replication_mode = 2
 
 [node name="Player" type="CharacterBody2D" unique_id=671980834]
 collision_layer = 2
 script = ExtResource("1_p83wy")
 
 [node name="Graphic" type="Node2D" parent="." unique_id=1498317512]
+position = Vector2(-25, -80)
 
 [node name="Body" type="AnimatedSprite2D" parent="Graphic" unique_id=1390803503]
-texture_filter = 1
 sprite_frames = ExtResource("2_g4jq6")
-animation = &"use_hand"
+centered = false
 metadata/_aseprite_wizard_interface_config_ = {
 "layer_section": false,
 "output_section": true,
@@ -67,10 +68,13 @@ metadata/_aseprite_wizard_config_ = {
 }
 metadata/_aseprite_wizard_source_file_hash_ = "a97b10830ff9c9a041fba674aae13ec5"
 
-[node name="Head" type="AnimatedSprite2D" parent="Graphic" unique_id=1692356924]
-texture_filter = 1
+[node name="HeadPoint" type="Node2D" parent="Graphic" unique_id=1790842825]
+position = Vector2(25, 48)
+
+[node name="Head" type="AnimatedSprite2D" parent="Graphic/HeadPoint" unique_id=1692356924]
+position = Vector2(-25, -48)
 sprite_frames = ExtResource("3_yj7se")
-animation = &"idle"
+centered = false
 metadata/_aseprite_wizard_interface_config_ = {
 "output_section": true,
 "pending_changes": {}
@@ -86,29 +90,9 @@ metadata/_aseprite_wizard_config_ = {
 }
 metadata/_aseprite_wizard_source_file_hash_ = "870d252b8ff927d9b20127744179a965"
 
-[node name="Legs" type="AnimatedSprite2D" parent="Graphic" unique_id=1692944136]
-texture_filter = 1
-sprite_frames = ExtResource("4_uyddv")
-animation = &"idle"
-metadata/_aseprite_wizard_interface_config_ = {
-"output_section": true,
-"pending_changes": {}
-}
-metadata/_aseprite_wizard_config_ = {
-"layer": "",
-"o_ex_p": "",
-"o_folder": "res://assets/player/legs",
-"o_name": "",
-"only_visible": false,
-"slice": "",
-"source": "res://assets/player/legs/legs.ase"
-}
-metadata/_aseprite_wizard_source_file_hash_ = "54339b926742cf91f8153fd74f1c0ea1"
-
 [node name="Hand" type="AnimatedSprite2D" parent="Graphic" unique_id=1446440248]
-texture_filter = 1
 sprite_frames = ExtResource("5_8clcj")
-animation = &"idle"
+centered = false
 metadata/_aseprite_wizard_interface_config_ = {
 "layer_section": false,
 "output_section": true,
@@ -126,8 +110,26 @@ metadata/_aseprite_wizard_config_ = {
 }
 metadata/_aseprite_wizard_source_file_hash_ = "e10f6e5c6a1edd780d5c9cc08f974297"
 
+[node name="Legs" type="AnimatedSprite2D" parent="Graphic" unique_id=1692944136]
+sprite_frames = ExtResource("4_uyddv")
+centered = false
+metadata/_aseprite_wizard_interface_config_ = {
+"output_section": true,
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"layer": "",
+"o_ex_p": "",
+"o_folder": "res://assets/player/legs",
+"o_name": "",
+"only_visible": false,
+"slice": "",
+"source": "res://assets/player/legs/legs.ase"
+}
+metadata/_aseprite_wizard_source_file_hash_ = "54339b926742cf91f8153fd74f1c0ea1"
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=205518254]
-position = Vector2(0, 15)
+position = Vector2(0, -25)
 shape = SubResource("RectangleShape2D_y2r4e")
 
 [node name="AnimationComponent" type="Node" parent="." unique_id=2123888440]
@@ -141,8 +143,11 @@ script = ExtResource("8_uyddv")
 inventory = SubResource("Resource_s1fef")
 metadata/_custom_type_script = "uid://rvk6oipg3aao"
 
-[node name="PlayerSyncState" type="Node" parent="." unique_id=2059989937]
+[node name="SyncState" type="Node" parent="." unique_id=2059989937]
 script = ExtResource("11_2ytk8")
+
+[node name="InteractionComponent" type="Node" parent="." unique_id=1326457543]
+script = ExtResource("12_iwwva")
 
 [node name="StateChart" type="Node" parent="." unique_id=1865910109]
 script = ExtResource("9_fmymq")
@@ -244,6 +249,7 @@ script = ExtResource("12_qyp0h")
 script = ExtResource("12_qyp0h")
 
 [node name="StateChartDebugger" parent="." unique_id=608617571 instance=ExtResource("15_g4jq6")]
+visible = false
 offset_left = 114.0
 offset_top = -121.0
 offset_right = 454.0
@@ -253,7 +259,7 @@ initial_node_to_watch = NodePath("../StateChart")
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." unique_id=1592331646]
 replication_config = SubResource("SceneReplicationConfig_qjkh3")
 
-[connection signal="event_received" from="StateChart/Root/Motion" to="PlayerSyncState" method="_on_motion_event_received"]
+[connection signal="event_received" from="StateChart/Root/Motion" to="SyncState" method="_on_motion_event_received"]
 [connection signal="state_entered" from="StateChart/Root/Motion/Idle" to="AnimationComponent" method="_on_idle_state_entered"]
 [connection signal="state_entered" from="StateChart/Root/Motion/Move" to="AnimationComponent" method="_on_move_state_entered"]
 [connection signal="state_entered" from="StateChart/Root/Motion/Jump" to="AnimationComponent" method="_on_jump_state_entered"]

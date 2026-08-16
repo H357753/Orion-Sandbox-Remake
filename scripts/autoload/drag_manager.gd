@@ -63,9 +63,7 @@ func handle_drop(target_inv: InventoryComponent, target_slot: int):
 		if space > 0:
 			var amount = min(space, stack.count)
 			target_stack.count += amount
-			print(stack.count)
 			stack.count -= amount
-			print(stack.count)
 			if stack.count <= 0:
 				# 手中物品全部放入
 				end_drag()

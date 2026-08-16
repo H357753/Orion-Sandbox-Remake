@@ -1,10 +1,12 @@
 class_name PlayerManager
 extends Node
+@onready var world: World = $".."
 @onready var spawner: MultiplayerSpawner = $"../MultiplayerSpawner"
 const PLAYER = preload("uid://cvp25ed7xclgf")
 
 signal local_player_set(player:PlayerCharacter)
 var _local_player: PlayerCharacter
+
 
 func get_local_player() ->PlayerCharacter:
 	return _local_player
@@ -12,6 +14,9 @@ func get_local_player() ->PlayerCharacter:
 func set_local_player(player:PlayerCharacter):
 	_local_player = player
 	local_player_set.emit(player)
+
+func get_world() -> World:
+	return world
 
 func _ready():
 	spawner.spawn_function = _spawn_player

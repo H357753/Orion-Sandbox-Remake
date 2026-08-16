@@ -1,6 +1,5 @@
 class_name MovementComponent
 extends Node
-@onready var graphic: Node2D = $"../Graphic"
 @export var move_speed: float = 84 * 60
 
 var gravity_enabled: bool = true
@@ -13,7 +12,6 @@ var falling_distance: float
 func move_and_update(delta: float):
 	if get_parent().dir:
 		get_parent().velocity.x += move_speed * delta * get_parent().dir
-		graphic.scale.x = 1 if get_parent().dir > 0 else -1
 
 
 func apply_gravity(delta: float):

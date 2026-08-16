@@ -24,7 +24,10 @@ func add_item(item: ItemDefinition, count: int) -> bool:
 	for i in slots.size():
 		if slots[i] == null:
 			slots[i] = ItemStack.new(item, remaining)
+			slots[i].changed.connect(emit_changed)
 			emit_changed()
+			if not slots[i].changed.is_connected(emit_changed):
+				slots[i].changed.connect(emit_changed)
 			return true
 	return false  # 空间不足
 
@@ -81,6 +84,21 @@ func move_item(from: int, to: int) -> bool:
 	slots[to] = src
 	emit_changed()
 	return true
+
+func set_item(index:int, stack:ItemStack) -> void:
+	if not stack:
+		slots[index] = null
+		return
+	slots[index] = stack
+	if not slots[index].changed.is_connected(emit_changed):
+		slots[index].changed.connect(emit_changed)
+	emit_changed()
+
+func delete_no_count_item() -> void:
+	for i in slots.size():
+		if slots[i]:
+			if slots[i].count<=0:
+				slots[i] = null
 
 # ---- 查询 ----
 

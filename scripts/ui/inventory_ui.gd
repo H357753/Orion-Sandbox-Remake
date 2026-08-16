@@ -6,7 +6,11 @@ var player_inventory:InventoryComponent
 var _slot_nodes: Array[Node] # 存放所有格子节点（需实现 set_slot_index 和 refresh）
 var _fast_slot_nodes: Array[Node]
 var _last_selected_item_index: int = -1
-var _selected_item_index: int = 0
+var _selected_item_index: int = 0:
+	set(i):
+		_selected_item_index = i
+		selected_item_index_changed.emit(i)
+signal selected_item_index_changed(i:int)
 
 @onready var item_ammunition: HBoxContainer = $ItemAmmunition
 @onready var item_slots: GridContainer = $ItemSlots
@@ -43,6 +47,9 @@ func _collect_slots():
 
 
 func bind_player(player:PlayerCharacter) -> void:
+	## UI的选中与player数据绑定
+	selected_item_index_changed.connect(player.set_selected_item_index)
+	## player的物品数据与UI绑定
 	player_inventory = player.inventory_component
 	player_inventory.inventory_changed.connect(refresh)
 	refresh()
@@ -111,5 +118,9 @@ func _process(delta: float):
 		_last_selected_item_index = _selected_item_index
 	if not visible:
 		DragManager.cancel_drag()
-	if Input.is_action_just_pressed("interaction"):
+	if Input.is_action_just_pressed("inventory"):
 		visible = !visible
+
+
+func _on_bag_button_pressed() -> void:
+	visible = !visible

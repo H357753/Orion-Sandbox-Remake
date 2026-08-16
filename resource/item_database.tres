@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="ItemDatabase" format=3 uid="uid://pjcaoo5xh4j1"]
+
+[ext_resource type="Script" uid="uid://bqtbm5l7rq72s" path="res://scripts/items/definition/item_definition.gd" id="1_qwo8u"]
+[ext_resource type="Script" uid="uid://db64yewwgbdf6" path="res://scripts/items/item_database.gd" id="2_2s7pt"]
+[ext_resource type="Texture2D" uid="uid://cf8dutdr8w123" path="res://atlas/items_icon.sprites/4.tres" id="2_8w0s5"]
+[ext_resource type="Script" uid="uid://dvhwtm3x8q836" path="res://scripts/items/definition/block_item.gd" id="2_v4ow5"]
+[ext_resource type="Texture2D" uid="uid://bveoyc61ulmcb" path="res://atlas/item_texure/item_4.tres" id="4_2708g"]
+[ext_resource type="Texture2D" uid="uid://vqhotu7vx2yf" path="res://atlas/items_icon.sprites/5.tres" id="5_p2t6x"]
+[ext_resource type="Texture2D" uid="uid://c0g104toed3l4" path="res://atlas/item_texure/item_5.tres" id="6_5fm4n"]
+
+[sub_resource type="Resource" id="Resource_bl0j6"]
+script = ExtResource("2_v4ow5")
+texture = ExtResource("4_2708g")
+icon = ExtResource("2_8w0s5")
+metadata/_custom_type_script = "uid://dvhwtm3x8q836"
+
+[sub_resource type="Resource" id="Resource_ek64g"]
+script = ExtResource("2_v4ow5")
+texture = ExtResource("6_5fm4n")
+icon = ExtResource("5_p2t6x")
+metadata/_custom_type_script = "uid://dvhwtm3x8q836"
+
+[resource]
+script = ExtResource("2_2s7pt")
+item_list = Array[ExtResource("1_qwo8u")]([SubResource("Resource_bl0j6"), SubResource("Resource_ek64g")])
+metadata/_custom_type_script = "uid://db64yewwgbdf6"

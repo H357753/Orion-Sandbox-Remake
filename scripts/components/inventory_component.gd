@@ -8,6 +8,7 @@ func _ready():
 	inventory.changed.connect(_on_inventory_data_changed)
 
 func _on_inventory_data_changed():
+	inventory.delete_no_count_item()
 	inventory_changed.emit()
 
 # ---- 包装方法 ----
@@ -22,10 +23,7 @@ func get_item(index: int) -> ItemStack:
 	return inventory.get_item(index)
 
 func set_item(index: int, stack: ItemStack) -> void:
-	if index < 0 or index >= inventory.slots.size():
-		return
-	inventory.slots[index] = stack
-	inventory.emit_changed()  # 会触发 changed 信号
+	inventory.set_item(index,stack)
 
 func has_item(item: ItemDefinition, amount: int) -> bool:
 	return inventory.has_item(item, amount)
