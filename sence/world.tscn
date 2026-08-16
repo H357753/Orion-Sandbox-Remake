@@ -3,11 +3,12 @@
 [ext_resource type="Script" uid="uid://daqrgdmids1cu" path="res://scripts/autoload/network_manager.gd" id="1_2rab3"]
 [ext_resource type="Script" uid="uid://d7m045g3toeb" path="res://scripts/world.gd" id="1_faki3"]
 [ext_resource type="Texture2D" uid="uid://ckxlisr53c36e" path="res://assets/tilemap/tiles.png" id="2_4ound"]
-[ext_resource type="Script" uid="uid://dpigss7u6n0ay" path="res://scripts/player/players_manager.gd" id="2_equwr"]
+[ext_resource type="Script" uid="uid://cfdbs1om8aq1e" path="res://scripts/players_manager.gd" id="2_equwr"]
 [ext_resource type="Texture2D" uid="uid://d06dtyq8vy22q" path="res://assets/ui/hotbar/1245_assets.Images_PANEL_TOP_CLASS.png" id="2_sr7px"]
 [ext_resource type="Texture2D" uid="uid://bf14218m48onm" path="res://assets/ui/hotbar/1199_assets.Images_EXPERIENCE_BAR_CLASS.png" id="3_eaa7k"]
 [ext_resource type="Texture2D" uid="uid://ix6hcouh2vow" path="res://assets/ui/inventory/1321_assets.Images_GAME_INVENTORY_BACKGROUND_CLASS.png" id="3_kxntw"]
 [ext_resource type="Texture2D" uid="uid://761h2pun373j" path="res://assets/ui/avatar/1696_assets.Images_AVATAR_HP_BACKGROUND_CLASS.png" id="4_equwr"]
+[ext_resource type="Script" uid="uid://b4utijmr30cat" path="res://scripts/autoload/controller_component.gd" id="4_oejbh"]
 [ext_resource type="PackedScene" uid="uid://djhntpktqtowj" path="res://sence/ui/item_fast_slot.tscn" id="4_q77x3"]
 [ext_resource type="Texture2D" uid="uid://dpljpxr11jmbu" path="res://assets/ui/avatar/1699_assets.Images_AVATAR_HP_BAR_CLASS.png" id="5_cwjja"]
 [ext_resource type="Texture2D" uid="uid://bw0s8kulldbuy" path="res://assets/ui/avatar/1179_assets.Images_AVATAR_INFO_FRAME_IRON_CLASS.png" id="6_v7ais"]
@@ -367,8 +368,12 @@ script = ExtResource("2_equwr")
 unique_name_in_owner = true
 script = ExtResource("1_2rab3")
 
+[node name="ControllerManager" type="Node" parent="." unique_id=1385834954]
+unique_name_in_owner = true
+script = ExtResource("4_oejbh")
+
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="." unique_id=70738243]
-_spawnable_scenes = PackedStringArray("uid://cvp25ed7xclgf")
+_spawnable_scenes = PackedStringArray("uid://spua40dxacjg")
 spawn_path = NodePath("../PlayersManager")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=592524995]
@@ -533,6 +538,7 @@ texture_pressed = SubResource("AtlasTexture_mnq3h")
 texture_hover = SubResource("AtlasTexture_syy7l")
 
 [node name="InventoryUI" type="TextureRect" parent="CanvasLayer" unique_id=1831424049]
+unique_name_in_owner = true
 visible = false
 anchors_preset = 8
 anchor_left = 0.5

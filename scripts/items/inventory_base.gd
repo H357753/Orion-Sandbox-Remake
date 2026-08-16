@@ -1,6 +1,5 @@
 class_name InventoryBase
 extends Resource
-
 @export var slots: Array[ItemStack]
 
 # ---- 核心操作 ----
@@ -93,12 +92,6 @@ func set_item(index:int, stack:ItemStack) -> void:
 	if not slots[index].changed.is_connected(emit_changed):
 		slots[index].changed.connect(emit_changed)
 	emit_changed()
-
-func delete_no_count_item() -> void:
-	for i in slots.size():
-		if slots[i]:
-			if slots[i].count<=0:
-				slots[i] = null
 
 # ---- 查询 ----
 

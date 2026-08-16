@@ -15,7 +15,7 @@ config/name_localized={
 "zh": "猎户座沙盒重制版"
 }
 config/version="0.0.3"
-run/main_scene="res://sence/world.tscn"
+run/main_scene="uid://d22db21qpjp6u"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/show_image=false
 boot_splash/stretch_mode=0
@@ -106,10 +106,6 @@ locale/locale_filter_mode=0
 2d_physics/layer_1="Ground"
 2d_physics/layer_2="Player"
 2d_physics/layer_3="Enemy"
-
-[physics]
-
-2d/default_gravity=1800.0
 
 [rendering]
 

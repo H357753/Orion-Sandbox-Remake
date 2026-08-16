@@ -1,47 +1,45 @@
 class_name MovementComponent
 extends Node
+@onready var creature: CharacterBody2D = $".."
 @export var move_speed: float = 84 * 60
 
 var gravity_enabled: bool = true
 var on_ladder: bool = false
 var under_liquid: bool = false
-
 var falling_distance: float
 
-
-func move_and_update(delta: float):
-	if get_parent().dir:
-		get_parent().velocity.x += move_speed * delta * get_parent().dir
+#func move_and_update(delta: float):
+#if creature.dir:
+#creature.velocity.x += move_speed * delta * creature.dir
 
 
 func apply_gravity(delta: float):
-	if !get_parent().is_on_floor() and !on_ladder and gravity_enabled:
-		get_parent().velocity.y += GlobalPhysics.GRAVITY * delta
+	if !creature.is_on_floor() and !on_ladder and gravity_enabled:
+		creature.velocity.y += GlobalPhysics.GRAVITY * delta
 
 
 func apply_friction():
 	if under_liquid:
-		get_parent().velocity.x *= GlobalPhysics.HORIZONTAL_WATER_FRICTION
-		get_parent().velocity.y *= GlobalPhysics.VERTICAL_WATER_FRICTION
+		creature.velocity.x *= GlobalPhysics.HORIZONTAL_WATER_FRICTION
+		creature.velocity.y *= GlobalPhysics.VERTICAL_WATER_FRICTION
 	else:
-		get_parent().velocity.x *= GlobalPhysics.HORIZONTAL_FRICTION
+		creature.velocity.x *= GlobalPhysics.HORIZONTAL_FRICTION
 		if gravity_enabled and not on_ladder:
-			get_parent().velocity.y *= GlobalPhysics.VERTICAL_FRICTION
+			creature.velocity.y *= GlobalPhysics.VERTICAL_FRICTION
 		else:
-			get_parent().velocity.y *= GlobalPhysics.HORIZONTAL_FRICTION
-	get_parent().move_and_slide()
+			creature.velocity.y *= GlobalPhysics.HORIZONTAL_FRICTION
+	creature.move_and_slide()
 
 
 func apply_falling_demage():
 	if gravity_enabled and not on_ladder:
-		if get_parent().velocity.y > 0:
-			falling_distance += owner.velocity.y / 60 # 转换为像素（因为速度是像素/秒）
-		elif get_parent().velocity.y < 0:
-			falling_distance += -owner.velocity.y / 60
-		if get_parent().is_on_floor() and falling_distance > 0:
+		if creature.velocity.y > 0:
+			falling_distance += creature.velocity.y / 60 # 转换为像素（因为速度是像素/秒）
+		elif creature.velocity.y < 0:
+			falling_distance -= creature.velocity.y / 60
+		if creature.is_on_floor() and falling_distance > 0:
 			#TODO: 处理坠落伤害
 			falling_distance = 0.0
-
 
 #const max_jump_height: int = 4
 #const move_speed: float = 84 * 60 # 1.4 * 60 像素/秒

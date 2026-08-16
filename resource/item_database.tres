@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bqtbm5l7rq72s" path="res://scripts/items/definition/item_definition.gd" id="1_qwo8u"]
 [ext_resource type="Script" uid="uid://db64yewwgbdf6" path="res://scripts/items/item_database.gd" id="2_2s7pt"]
 [ext_resource type="Texture2D" uid="uid://cf8dutdr8w123" path="res://atlas/items_icon.sprites/4.tres" id="2_8w0s5"]
-[ext_resource type="Script" uid="uid://dvhwtm3x8q836" path="res://scripts/items/definition/block_item.gd" id="2_v4ow5"]
+[ext_resource type="Script" uid="uid://dvhwtm3x8q836" path="res://scripts/items/definition/block_item_definition.gd" id="2_v4ow5"]
 [ext_resource type="Texture2D" uid="uid://bveoyc61ulmcb" path="res://atlas/item_texure/item_4.tres" id="4_2708g"]
 [ext_resource type="Texture2D" uid="uid://vqhotu7vx2yf" path="res://atlas/items_icon.sprites/5.tres" id="5_p2t6x"]
 [ext_resource type="Texture2D" uid="uid://c0g104toed3l4" path="res://atlas/item_texure/item_5.tres" id="6_5fm4n"]

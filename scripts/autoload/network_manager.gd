@@ -1,7 +1,6 @@
 extends Node
 @onready var players_manager: PlayerManager = %PlayersManager
-var peer: ENetMultiplayerPeer
-
+var peer: ENetMultiplayerPeer = ENetMultiplayerPeer.new()
 
 func _on_host_pressed():
 	create_server()
@@ -12,7 +11,6 @@ func _on_join_pressed():
 
 
 func create_server():
-	peer = ENetMultiplayerPeer.new()
 	var err = peer.create_server(7753)
 	if err != OK:
 		print(err)
@@ -23,7 +21,6 @@ func create_server():
 
 
 func create_client(ip: String):
-	peer = ENetMultiplayerPeer.new()
 	var err = peer.create_client(ip, 7753)
 	if err != OK:
 		return

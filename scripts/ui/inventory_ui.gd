@@ -1,23 +1,22 @@
 extends Control
-## 获取当前player
+## player相关引用
 @onready var players_manager: PlayerManager = %PlayersManager
 var player_inventory:InventoryComponent
 
+## 快捷栏与背包栏
 var _slot_nodes: Array[Node] # 存放所有格子节点（需实现 set_slot_index 和 refresh）
 var _fast_slot_nodes: Array[Node]
-var _last_selected_item_index: int = -1
-var _selected_item_index: int = 0:
-	set(i):
-		_selected_item_index = i
-		selected_item_index_changed.emit(i)
-signal selected_item_index_changed(i:int)
 
+## node节点引用
 @onready var item_ammunition: HBoxContainer = $ItemAmmunition
 @onready var item_slots: GridContainer = $ItemSlots
 @onready var item_hotbar: HBoxContainer = $ItemHotbar
 @onready var item_held_slot: ItemSlotBase = $"../ItemHeldSlot" # 手持槽节点
 @onready var item_panel_slots: HBoxContainer = $"../HUD/FastPannelUI/ItemPanelSlots"
 
+var _last_selected_item_index:int = -1
+
+## 快捷栏高亮
 
 func _ready():
 	# 初始化手持槽
@@ -27,8 +26,6 @@ func _ready():
 	# 连接所有格子的点击信号
 	for slot in _slot_nodes:
 		slot.slot_clicked.connect(_on_slot_clicked)
-	
-	players_manager.local_player_set.connect(bind_player)
 
 	# 连接 DragManager 信号（注意：都是无参信号）
 	DragManager.drag_started.connect(_on_drag_started)
@@ -46,14 +43,18 @@ func _collect_slots():
 	_fast_slot_nodes += item_panel_slots.get_children()
 
 
-func bind_player(player:PlayerCharacter) -> void:
-	## UI的选中与player数据绑定
-	selected_item_index_changed.connect(player.set_selected_item_index)
-	## player的物品数据与UI绑定
+func bind_player(player:PlayerCharacterEntity) -> void:
 	player_inventory = player.inventory_component
 	player_inventory.inventory_changed.connect(refresh)
+	player.selected_item_changed.connect(switch_selected_item_slot)
+	switch_selected_item_slot(player.selected_item_index)
 	refresh()
 
+func switch_selected_item_slot(_selected_item_index:int) -> void:
+	if _selected_item_index != _last_selected_item_index:
+		_fast_slot_nodes[_last_selected_item_index].set_selection_visible(false)
+		_fast_slot_nodes[_selected_item_index].set_selection_visible(true)
+		_last_selected_item_index = _selected_item_index
 
 func refresh():
 	if not player_inventory:
@@ -97,25 +98,8 @@ func _on_slot_clicked(index: int, offset: Vector2):
 		# begin_drag 会触发 drag_started，进而调用 _on_drag_started，显示手持槽并刷新
 
 
-func _unhandled_input(event):
-	if event is InputEventMouseButton and event.pressed:
-		match event.button_index:
-			MOUSE_BUTTON_WHEEL_UP:
-				_selected_item_index = wrapi(_selected_item_index + 1, 0, 9)
-			MOUSE_BUTTON_WHEEL_DOWN:
-				_selected_item_index = wrapi(_selected_item_index - 1, 0, 9)
-	if event is InputEventKey and event.pressed:
-		var index = event.keycode - KEY_1
-		if index >= 0 and index < 9:
-			_selected_item_index = index
-
-
 @warning_ignore("unused_parameter")
 func _process(delta: float):
-	if _selected_item_index != _last_selected_item_index:
-		_fast_slot_nodes[_last_selected_item_index].set_selection_visible(false)
-		_fast_slot_nodes[_selected_item_index].set_selection_visible(true)
-		_last_selected_item_index = _selected_item_index
 	if not visible:
 		DragManager.cancel_drag()
 	if Input.is_action_just_pressed("inventory"):

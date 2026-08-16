@@ -8,7 +8,6 @@ func _ready():
 	inventory.changed.connect(_on_inventory_data_changed)
 
 func _on_inventory_data_changed():
-	inventory.delete_no_count_item()
 	inventory_changed.emit()
 
 # ---- 包装方法 ----
@@ -18,6 +17,12 @@ func add_item(item: ItemDefinition, amount: int = 1) -> bool:
 
 func remove_item(item: ItemDefinition, amount: int) -> bool:
 	return inventory.remove_item(item, amount)
+
+func add_item_count(index:int, amount: int)->void:
+	inventory.slots[index].count+=amount
+	if inventory.slots[index].count<=0:
+		inventory.slots[index] = null
+	inventory_changed.emit()
 
 func get_item(index: int) -> ItemStack:
 	return inventory.get_item(index)
@@ -69,7 +74,3 @@ func _move_between_inventories(src_idx: int, dst_inv: InventoryBase, dst_idx: in
 	dst_inv.slots[dst_idx] = src_stack
 	inventory.notify_property_list_changed()
 	dst_inv.notify_property_list_changed()
-
-# ---- 额外功能：清空 ----
-func clear_inventory() -> void:
-	inventory.clear()

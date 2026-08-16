@@ -1,0 +1,239 @@
+[gd_scene format=3 uid="uid://spua40dxacjg"]
+
+[ext_resource type="PackedScene" uid="uid://byvkcx2d1tnpr" path="res://scripts/entity/creature/character_entity/character_entity.tscn" id="1_6yq27"]
+[ext_resource type="Script" uid="uid://dcoiqn73eqfmm" path="res://scripts/entity/creature/character_entity/player/player_character_entity.gd" id="2_1qm62"]
+[ext_resource type="Script" uid="uid://btu0y563qf1j8" path="res://scripts/entity/creature/character_entity/player/animation_component.gd" id="3_1qm62"]
+[ext_resource type="Script" uid="uid://b8wa6384teylb" path="res://scripts/items/inventory_base.gd" id="3_xk46b"]
+[ext_resource type="Script" uid="uid://jjs0qa6uyk62" path="res://scripts/items/item_stack.gd" id="4_2w4vj"]
+[ext_resource type="SpriteFrames" uid="uid://cgsdj3d0n6v5i" path="res://assets/player/body.res" id="4_das87"]
+[ext_resource type="SpriteFrames" uid="uid://rvv5fgfcu803" path="res://assets/player/head.res" id="5_2w4vj"]
+[ext_resource type="SpriteFrames" uid="uid://d8rnjlt3r0pf" path="res://assets/player/hand.res" id="6_p2h2b"]
+[ext_resource type="SpriteFrames" uid="uid://d2h5i45btvhso" path="res://assets/player/legs.res" id="7_rh8x6"]
+[ext_resource type="Script" uid="uid://couw105c3bde4" path="res://addons/godot_state_charts/state_chart.gd" id="8_fbmjb"]
+[ext_resource type="Script" uid="uid://jk2jm1g6q853" path="res://addons/godot_state_charts/compound_state.gd" id="10_xq05a"]
+[ext_resource type="Script" uid="uid://cytafq8i1y8qm" path="res://addons/godot_state_charts/atomic_state.gd" id="11_b1mcn"]
+[ext_resource type="Script" uid="uid://cf1nsco3w0mf6" path="res://addons/godot_state_charts/transition.gd" id="12_dqdc4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s1fef"]
+size = Vector2(23, 50)
+
+[sub_resource type="Resource" id="Resource_m4aow"]
+script = ExtResource("3_xk46b")
+slots = Array[ExtResource("4_2w4vj")]([null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null])
+metadata/_custom_type_script = "uid://b8wa6384teylb"
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_1qm62"]
+properties/0/path = NodePath("..:sync_velocity")
+properties/0/spawn = true
+properties/0/replication_mode = 2
+properties/1/path = NodePath("..:sync_motion_state")
+properties/1/spawn = true
+properties/1/replication_mode = 2
+properties/2/path = NodePath("..:sync_flip")
+properties/2/spawn = true
+properties/2/replication_mode = 2
+properties/3/path = NodePath("..:position")
+properties/3/spawn = true
+properties/3/replication_mode = 2
+
+[node name="PlayerCharacterEntity" unique_id=1152475050 instance=ExtResource("1_6yq27")]
+collision_layer = 2
+script = ExtResource("2_1qm62")
+sync_velocity = Vector2(0, 0)
+sync_motion_state = ""
+sync_flip = 0
+
+[node name="CollisionShape2D" parent="." index="0" unique_id=1515282076]
+position = Vector2(-0.5, -25)
+shape = SubResource("RectangleShape2D_s1fef")
+
+[node name="InventoryComponent" parent="." index="3" unique_id=1504499560]
+inventory = SubResource("Resource_m4aow")
+
+[node name="AnimationComponent" type="Node" parent="." index="4" unique_id=1410848145]
+script = ExtResource("3_1qm62")
+
+[node name="Graphic" type="Node2D" parent="." index="5" unique_id=80825745]
+position = Vector2(-25, -80)
+
+[node name="Body" type="AnimatedSprite2D" parent="Graphic" index="0" unique_id=1640985395]
+sprite_frames = ExtResource("4_das87")
+centered = false
+metadata/_aseprite_wizard_interface_config_ = {
+"layer_section": false,
+"output_section": true,
+"pending_changes": {},
+"slice_section": false
+}
+metadata/_aseprite_wizard_config_ = {
+"layer": "",
+"o_ex_p": "",
+"o_folder": "res://assets/player/body",
+"o_name": "",
+"only_visible": false,
+"slice": "",
+"source": "res://assets/player/body/body.ase"
+}
+metadata/_aseprite_wizard_source_file_hash_ = "a97b10830ff9c9a041fba674aae13ec5"
+
+[node name="HeadPoint" type="Node2D" parent="Graphic" index="1" unique_id=720780676]
+position = Vector2(25, 48)
+
+[node name="Head" type="AnimatedSprite2D" parent="Graphic/HeadPoint" index="0" unique_id=1677695187]
+position = Vector2(-25, -48)
+sprite_frames = ExtResource("5_2w4vj")
+centered = false
+metadata/_aseprite_wizard_interface_config_ = {
+"output_section": true,
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"layer": "",
+"o_ex_p": "",
+"o_folder": "res://assets/player/head",
+"o_name": "",
+"only_visible": false,
+"slice": "",
+"source": "res://assets/player/head/head.ase"
+}
+metadata/_aseprite_wizard_source_file_hash_ = "870d252b8ff927d9b20127744179a965"
+
+[node name="Hand" type="AnimatedSprite2D" parent="Graphic" index="2" unique_id=1255722639]
+sprite_frames = ExtResource("6_p2h2b")
+centered = false
+metadata/_aseprite_wizard_interface_config_ = {
+"layer_section": false,
+"output_section": true,
+"pending_changes": {},
+"slice_section": false
+}
+metadata/_aseprite_wizard_config_ = {
+"layer": "",
+"o_ex_p": "",
+"o_folder": "res://assets/player/hand",
+"o_name": "",
+"only_visible": false,
+"slice": "",
+"source": "res://assets/player/hand/hand.ase"
+}
+metadata/_aseprite_wizard_source_file_hash_ = "e10f6e5c6a1edd780d5c9cc08f974297"
+
+[node name="Legs" type="AnimatedSprite2D" parent="Graphic" index="3" unique_id=2014580499]
+sprite_frames = ExtResource("7_rh8x6")
+centered = false
+metadata/_aseprite_wizard_interface_config_ = {
+"output_section": true,
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"layer": "",
+"o_ex_p": "",
+"o_folder": "res://assets/player/legs",
+"o_name": "",
+"only_visible": false,
+"slice": "",
+"source": "res://assets/player/legs/legs.ase"
+}
+metadata/_aseprite_wizard_source_file_hash_ = "54339b926742cf91f8153fd74f1c0ea1"
+
+[node name="StateChart" type="Node" parent="." index="6" unique_id=1888601357]
+script = ExtResource("8_fbmjb")
+metadata/_custom_type_script = "uid://couw105c3bde4"
+
+[node name="Motion" type="Node" parent="StateChart" index="0" unique_id=280877121]
+script = ExtResource("10_xq05a")
+initial_state = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="StateChart/Motion" index="0" unique_id=500289605]
+script = ExtResource("11_b1mcn")
+
+[node name="To Move" type="Node" parent="StateChart/Motion/Idle" index="0" unique_id=841074973]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Move")
+event = &"move_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Jump" type="Node" parent="StateChart/Motion/Idle" index="1" unique_id=1772217819]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Jump")
+event = &"jump_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Fall" type="Node" parent="StateChart/Motion/Idle" index="2" unique_id=1585371014]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Fall")
+event = &"fall_entered"
+delay_in_seconds = "0.0"
+
+[node name="Move" type="Node" parent="StateChart/Motion" index="1" unique_id=664056103]
+script = ExtResource("11_b1mcn")
+
+[node name="To Idle" type="Node" parent="StateChart/Motion/Move" index="0" unique_id=534816755]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Idle")
+event = &"idle_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Jump" type="Node" parent="StateChart/Motion/Move" index="1" unique_id=910862695]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Jump")
+event = &"jump_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Fall" type="Node" parent="StateChart/Motion/Move" index="2" unique_id=1821885403]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Fall")
+event = &"fall_entered"
+delay_in_seconds = "0.0"
+
+[node name="Jump" type="Node" parent="StateChart/Motion" index="2" unique_id=885410260]
+script = ExtResource("11_b1mcn")
+
+[node name="To Idle" type="Node" parent="StateChart/Motion/Jump" index="0" unique_id=333715159]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Idle")
+event = &"idle_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Move" type="Node" parent="StateChart/Motion/Jump" index="1" unique_id=839935688]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Move")
+event = &"move_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Fall" type="Node" parent="StateChart/Motion/Jump" index="2" unique_id=1001988547]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Fall")
+event = &"fall_entered"
+delay_in_seconds = "0.0"
+
+[node name="Fall" type="Node" parent="StateChart/Motion" index="3" unique_id=1222753390]
+script = ExtResource("11_b1mcn")
+
+[node name="To Idle" type="Node" parent="StateChart/Motion/Fall" index="0" unique_id=1352334865]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Idle")
+event = &"idle_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Move" type="Node" parent="StateChart/Motion/Fall" index="1" unique_id=1047304695]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Move")
+event = &"move_entered"
+delay_in_seconds = "0.0"
+
+[node name="To Jump" type="Node" parent="StateChart/Motion/Fall" index="2" unique_id=788415875]
+script = ExtResource("12_dqdc4")
+to = NodePath("../../Jump")
+event = &"jump_entered"
+delay_in_seconds = "0.0"
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." index="7" unique_id=1593653287]
+root_path = NodePath("../CollisionShape2D")
+replication_config = SubResource("SceneReplicationConfig_1qm62")
+
+[connection signal="event_received" from="StateChart/Motion" to="." method="_on_motion_event_received"]
+[connection signal="state_entered" from="StateChart/Motion/Idle" to="AnimationComponent" method="_on_idle_state_entered"]
+[connection signal="state_entered" from="StateChart/Motion/Move" to="AnimationComponent" method="_on_move_state_entered"]
+[connection signal="state_entered" from="StateChart/Motion/Jump" to="AnimationComponent" method="_on_jump_state_entered"]
+[connection signal="state_entered" from="StateChart/Motion/Fall" to="AnimationComponent" method="_on_fall_state_entered"]

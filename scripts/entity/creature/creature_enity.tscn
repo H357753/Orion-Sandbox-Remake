@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://d2qv3awv4f0yc"]
+
+[ext_resource type="Script" uid="uid://bnwyno7k4bly7" path="res://scripts/entity/creature/creature_entity.gd" id="1_su7ae"]
+[ext_resource type="Script" uid="uid://b2kj7bkmfwf0b" path="res://scripts/entity/creature/components/health_component.gd" id="2_dic57"]
+[ext_resource type="Script" uid="uid://syg46an1vuat" path="res://scripts/entity/physics_component.gd" id="4_2w6w6"]
+
+[node name="CreatureEntity" type="CharacterBody2D" unique_id=1152475050]
+script = ExtResource("1_su7ae")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1515282076]
+
+[node name="HealthComponent" type="Node" parent="." unique_id=1175253822]
+script = ExtResource("2_dic57")
+
+[node name="PhysicsComponent" type="Node" parent="." unique_id=1650916809]
+script = ExtResource("4_2w6w6")

@@ -1,6 +1,8 @@
 extends Node
-
-@onready var player: PlayerCharacter = $".."
+signal hand_animation_started
+signal hand_animation_middle
+signal hand_animation_finished
+@onready var player: PlayerCharacterEntity = $".."
 @onready var head_point: Node2D = $"../Graphic/HeadPoint"
 @onready var body: AnimatedSprite2D = $"../Graphic/Body"
 @onready var head: AnimatedSprite2D = $"../Graphic/HeadPoint/Head"
@@ -110,6 +112,7 @@ func _process(delta: float) -> void:
 	# 头部旋转
 	_update_head_rotation.rpc()
 
+@rpc("any_peer","call_local")
 func set_direction(dir: bool) -> void:
 	head.flip_h = dir
 	body.flip_h = dir
@@ -158,8 +161,10 @@ func _update_hand_fixed_tick() -> void:
 
 	# 原版先累计 duration，再判断是否进入 MIDDLE。
 	hand_anim_duration += ORIGINAL_FRAME_RATE_SEC
-	if hand_anim_duration >= hand_half_duration:
+	if hand_anim_duration >= hand_half_duration \
+	and anim_position == AnimPosition.BEGIN:
 		anim_position = AnimPosition.MIDDLE
+		hand_animation_middle.emit()
 
 	# STATIC：原版在达到 frameRate 后结束，不推进帧。
 	if hand_anim_type == HandAnimType.STATIC:
@@ -283,6 +288,7 @@ func start_hand_animation(
 	hand_fixed_accumulator = 0.0
 	anim_position = AnimPosition.BEGIN
 	is_hand_busy = true
+	hand_animation_started.emit()
 	
 func stop_hand_animation() -> void:
 	hand_anim_type = HandAnimType.NONE
@@ -290,6 +296,7 @@ func stop_hand_animation() -> void:
 	hand_timer = 0.0
 	hand_fixed_accumulator = 0.0
 	anim_position = AnimPosition.END
+	hand_animation_finished.emit()
 
 # 原版 Item.speed 的语义：持续时间 = speed * Core.FRAME_RATE，
 # 而原版 Core.FRAME_RATE = int(1000 / 60) = 16ms。

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://byvkcx2d1tnpr"]
+
+[ext_resource type="PackedScene" uid="uid://d2qv3awv4f0yc" path="res://scripts/entity/creature/creature_enity.tscn" id="1_3bd1m"]
+[ext_resource type="Script" uid="uid://ssqr2uw80wr5" path="res://scripts/entity/creature/character_entity/character_entity.gd" id="2_6jglc"]
+[ext_resource type="Script" uid="uid://rvk6oipg3aao" path="res://scripts/entity/creature/components/inventory_component.gd" id="3_6jglc"]
+
+[node name="CharacterEnity" unique_id=1152475050 instance=ExtResource("1_3bd1m")]
+script = ExtResource("2_6jglc")
+selected_item_index = 0
+
+[node name="InventoryComponent" type="Node" parent="." index="3" unique_id=1504499560]
+script = ExtResource("3_6jglc")
+metadata/_custom_type_script = "uid://rvk6oipg3aao"
